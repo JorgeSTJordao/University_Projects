@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Configurações do Usuário</title>
+
+  <link rel="stylesheet" href="style/estiloconfig.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #F5F5DC;
+      background-image: url("configuracoes/bgconfig.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top center ;
+      margin: 0px;
+      padding: 0px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container"> 
+    <div id = "title1">
+      <h1>PERFIL PÚBLICO</h1>
+    </div>
+    <div id = "main1"> <!-- Perfil do usuário -->
+      <div class = "descricao1">
+          <form action="POST">
+            <h3>Nome</h3>
+            <p>Seu nome será público em todos os posts e comentários que você fizer ao longo do site</p>
+            <input type="text" placeholder="Empresa AgudosdoSul"><br>
+            <h3>Cidade</h3>
+            <input type="text" style="width: 220px;" placeholder="Agudos do Sul"><br>
+            <h3>Interesses</h3>
+            <p>Escolha sua principal área de interesse no momento e nos ajude a acompanhar seu contato com a cidade</p>
+            <select name="" id="content" style="width: 220px;" >
+              <option value="">Seleciona uma opção</option>
+              <option value="">Restaurantes</option>
+              <option value="">Pontos Turísticos</option>
+              <option value="">Comércio</option>
+            </select>
+          </form>
+      </div>
+      <div class = "image">
+        <h3>Foto de Perfil</h3>
+        <img src="configuracoes/profile.jpg" alt="foto de perfil" style="width: 230px; height: 190px; border-radius: 50%; border: solid 1px; margin-left: 20px; border-color: gray;">
+      </div>
+    </div>
+    
+    <div id = "title2">
+      <h1>CONFIGURAÇÕES</h1>
+    </div>
+    <div id = "main2"> <!-- Configurações de perfil -->      
+      <div class = "descricao2">
+        <form action="POST">
+          <h3>Notificações</h3>
+          <p>Deseja receber nossas notificações para mais novidades</p>
+          <label class = "switch">
+            <input type="checkbox" checked>
+            <span class = "slider round"></span>
+          </label>
+        </form>
+      </div>
+    </div>
+
+    <div id = "title3">
+      <h1>SOBRE NÓS</h1>
+    </div>
+    <div id = "about"> <!-- Sobre nós -->    
+      <div>
+        <h2>Sobre</h2>
+        <p style="text-align: justify;">
+          Somos alunos da PUC-PR e uma equipe que busca criar uma nova perspectiva de interesse sobre a cidade de Agudos do Sul, evitando as barreiras de acesso que temos sobre o turismo. A partir disso, venha estamos dipostos a ajudar sempre que for possível e expandir nossas habilidades de desenvolvedores para o bem comum.
+        </p>
+      </div>
+      <div>
+        <h2>Membros</h2>
+        <ul>
+          <li>Ayumi Sato Brizola</li>
+          <li>Daniela Tamy Yuki</li>
+          <li>Jorge Samuel Teixeira Jordão</li>
+          <li>Letícia Izabelly Melnick Garsztka</li>
+          <li>Maria Fernanda Golçalves Codeiro</li>
+          <li>Ricardo Ryu Magalhães Makino</li>
+        </ul>
+      </div>
+    </div>
+    <div id = "footer">
+        <div class="rectangle">
+          <img src="comercio/logo.jpg" alt="Imagem" />
+          <div class="footer-text">
+            <p>Telefone: (41) 3624-1244</p>
+            <p>Instagram: <a href="https://www.instagram.com/prefeituradeagudosdosul/">@prefeituradeagudosdosul</a></p>
+            <p>Endereço: Av. Brasil, 38, Agudos do Sul - PR, 83850-000</p>
+            <p>Todos os direitos reservados AgudosdoSul.Turismo &copy; 2023</p>
+        </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
