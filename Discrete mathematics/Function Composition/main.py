@@ -37,7 +37,7 @@ def function(fx, gx, x):
         compose_gg = sp.compose(gx, gx)
 
         print("All possible combinations")
-        print(f"f(x) o g(x): {compose_fg}", f"f(x) o f(x): {compose_fg}", f"g(x) o f(x): {compose_gf}",
+        print(f"f(x) o g(x): {compose_fg}", f"f(x) o f(x): {compose_ff}", f"g(x) o f(x): {compose_gf}",
               f"g(x) o g(x): {compose_gg}", sep="\n")
 
         xf = int(input("Type the x value: "))
