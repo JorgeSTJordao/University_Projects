@@ -16,6 +16,7 @@ def encrypt(plain_text, password):
     private_key = hashlib.scrypt(
         password.encode(), salt=salt, n=2 ** 14, r=8, p=1, dklen=32)
 
+    print("Private key: {}".format(private_key))
     # create cipher config
     cipher_config = AES.new(private_key, AES.MODE_GCM)
 

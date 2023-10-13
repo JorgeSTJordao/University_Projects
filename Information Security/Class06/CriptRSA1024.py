@@ -33,4 +33,4 @@ decrypted = decryptor.decrypt(encrypted)
 print('Decifrado: ', decrypted)
 
 stop = time.time()
-print(round(stop - start, 4))
+print("Time: {}".format(round(stop - start, 4)))

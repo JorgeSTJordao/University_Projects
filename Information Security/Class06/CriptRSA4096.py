@@ -9,6 +9,8 @@ import time
 # Recording in progress
 start = time.time()
 
+plaintext = "RSA: algoritmo dos professores do MIT: Rivest, Shamir e Adleman"
+
 keyPair = RSA.generate(4096)
 
 pubKey = keyPair.publickey()
@@ -20,7 +22,6 @@ print(f"Chave Privada: (n={hex(pubKey.n)}, d={hex(keyPair.d)})")
 privKeyPEM = keyPair.exportKey()
 print(privKeyPEM.decode('ascii'))
 
-plaintext = input("Mensagem a ser criptografada: ")
 msg = bytes(plaintext,'utf-8')
 encryptor = PKCS1_OAEP.new(pubKey)
 encrypted = encryptor.encrypt(msg)
@@ -31,4 +32,4 @@ decrypted = decryptor.decrypt(encrypted)
 print('Decifrado: ', decrypted)
 
 stop = time.time()
-print(round(stop - start, 4))
+print("Time: {}".format(round(stop - start, 4)))

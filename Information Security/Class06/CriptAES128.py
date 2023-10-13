@@ -7,6 +7,9 @@ from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 import time
 
+# Key size
+total = 7
+
 def encrypt(plain_text, password):
     # generate a random salt
     salt = get_random_bytes(AES.block_size)
@@ -16,7 +19,9 @@ def encrypt(plain_text, password):
     # R: block size
     # P: parellelization factor
     private_key = hashlib.scrypt(
-        password.encode(), salt=salt, n=2 ** 14, r=7, p=1, dklen=32)
+        password.encode(), salt=salt, n=2 ** 14, r=total, p=1, dklen=32)
+
+    print("Private key: {}".format(private_key))
 
     # create cipher config
     cipher_config = AES.new(private_key, AES.MODE_GCM)
@@ -40,7 +45,7 @@ def decrypt(enc_dict, password):
 
     # generate the private key from the password and salt
     private_key = hashlib.scrypt(
-        password.encode(), salt=salt, n=2 ** 14, r=7, p=1, dklen=32)
+        password.encode(), salt=salt, n=2 ** 14, r=total, p=1, dklen=32)
 
     # create the cipher config
     cipher = AES.new(private_key, AES.MODE_GCM, nonce=nonce)
