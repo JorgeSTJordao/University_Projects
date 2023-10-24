@@ -4,6 +4,7 @@ from os import getpid, getppid
 def conta(n):
     for i in range(n):
         print("PID: {} {} | Parent PID: {} {}".format(i+1, getpid(), i+1, getppid()))
+
         sleep(0.2)
 
 def main():

@@ -17,15 +17,16 @@ def main():
     filho2 = Process(target=conta, args=[1000000, vc])
 
     filho1.start() # Só a partir daqui é executado
-    filho1.join() # Bloqueia o processo
-
     filho2.start() # Só a partir daqui é executado
 
     print("aguardando filho") # Começa a executar em conjunto
+
+    filho1.join() # Bloqueia o processo
     filho2.join() # Bloqueia o processo
 
     print("pai terminou {}".format(vc.value))
 
 # Vários processos podem ocupar espaço, por isso o tempo de execução varia
 # Será criado dois processos, considerando que cada um deve ser executado em paralelo
-main()
+if __name__ == '__main__':
+    main()

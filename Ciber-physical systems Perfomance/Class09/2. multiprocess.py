@@ -1,3 +1,4 @@
+# Suport video: https://youtu.be/YOhrIov7PZA?si=3kJZr2Az01_uJTX-
 # A diferença entre o paralelismo e threads é que a última executa variadas instruções de uma só vez
 from time import time, sleep
 from os import getpid, getppid
@@ -20,4 +21,6 @@ def main():
 
 # Vários processos podem ocupar espaço, por isso o tempo de execução varia
 # Será criado dois processos, considerando que cada um deve ser executado em paralelo
-main()
+
+if __name__ == '__main__':
+    main()
