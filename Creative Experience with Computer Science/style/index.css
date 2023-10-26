@@ -1,0 +1,314 @@
+:root{
+    --marrom : #AF793A;
+
+}
+
+body {
+    background-color:  #f5f5dc;
+    margin: 0;
+}
+
+.abaUsuario{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: #EFEFA4;
+}
+
+.retanguloUsuario{
+    width: 400px;
+    height: 130px;
+    background-color: #EFEFA4;
+    margin: 40px 250px 0px 40px;
+    border-radius: 40px;
+    display: flex;
+}
+
+
+
+.ovelha{
+    width: 155px;
+    margin-top: 10px;
+}
+
+.Nome__Botoes.nome{
+    height: 40px;
+    width: 100%;    
+    padding-top: 20px;
+    background-color: #EFEFA4;
+    position: relative;
+    margin-left: 20px;
+    
+}
+
+.mais{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.nome{
+    position: absolute;
+    font-size: 30px;
+    width: 100%;
+    color: var(--marrom);
+    background-color: #EFEFA4;
+    border:#EFEFA4;
+    text-decoration-color: #AF793A;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.Nome__Botoes.botao{
+    width: 110px;
+    height: 70px;
+    display: flex;
+
+}
+
+.textoPesquisaContainer{  
+   display: flex;
+   align-items: center;
+  
+}
+
+.textoPesquisaContainer::before{
+    font-family: 'Material Symbols Outlined';
+    content: '\e8b6';
+    color: var(--marrom);
+    position: absolute;
+    font-size: 50px;
+    margin-left: 6px;
+}
+
+.textoPesquisa{
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 80px;
+    border: #EFEFA4;
+    border-radius: 100px;
+    padding-left: 65px;
+    font-size: 30px;
+}
+
+
+/*=======================================================*/
+
+.iconesCentrais{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  #f5f5dc;
+}
+
+.iconesCentrais > div {
+    width: 200px;
+    height: 180px;
+}
+
+a.vermelho{
+    color: #db1047;
+
+}
+
+.restaurante{
+    margin-top: 50px;
+    width: 80px;
+    height: 100px;
+    position: relative;
+}
+
+a.azul{
+    border-color: #4660A6;
+    color: #4660A6;
+}
+
+
+
+.turistico{
+    margin-top: 50px;
+    position: relative;
+    width: 70px;
+    height: 100px;
+}
+
+
+a.verde{
+    border-color: #75b166;
+    color: #8CC07F;
+
+}
+
+.comercio{
+    margin-top: 50px;
+    position: relative;
+    width: 90px;
+    height: 100px;
+}
+
+.texto{
+    margin-top: 800px;
+}
+
+
+a.cinza{
+    border-color: #b4b4a9;
+    color: #D5D5C6;
+
+}
+
+.curiosidades{
+    margin-top: 50px;
+    position: relative;
+    width: 70px;
+    height: 100px;
+}
+
+.iconesCentrais a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 100%;
+}
+.iconesCentrais span {
+    background-color:#75b166;
+    margin-top: 130px;
+    text-transform: uppercase;
+    font-size: 29px;
+}
+.icone {
+    border: 4px solid;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    background-color: #F5F5DC;
+}
+
+.textoIconesVermelho{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 20px;
+    color: #db1047;
+}
+
+.textoIconesVerde{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    color: #75b166;
+}.textoIconesAzul{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    color: #4660A6;
+}
+
+.textoIconesCinza{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    color: #b4b4a9;
+}
+
+
+/*=====================================================*/
+
+.rodape{
+    
+    width: 100% ;
+    height: 460px;
+    position: relative;
+}
+
+.rodape__linha{
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: #4660A6;
+    width: 90%;
+    height: 2px;
+    border-radius: 60px;
+}
+
+.rodape__botoes{
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.botao__contato{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    color: #AF793A;
+    font-size: 20px;
+}
+
+.contatoImagem{
+    height: 200px;
+    width: 200px;
+}
+.botao__mapa{
+    margin-left: 280px;
+    height: 200px;
+    width: 200px;
+    color: #AF793A;
+    text-align: center;
+    font-size: 20px;
+}
+ .mapa{
+    height: 200px;
+    width: 200px;
+ }
+
+.rodape_final{
+    background-color: #EFEFA4;
+}
+
+.rectangle {
+    margin-top: 100px;
+    background-color:  #EFEFA4;
+    height: 270px;
+    width: 100%;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+}
+
+.rectangle img {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+}
+
+.footer-text {
+    font-size: 19;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+
+
+  .footer-text p:nth-child(1)::before {
+    content: "\260E"; /* Código para o símbolo do telefone */
+    margin-right: 5px;
+  }
+
+  .footer-text p:nth-child(2)::before {
+    content: "\1F4F1"; 
+    margin-right: 5px;
+  }
+
+
+  .footer-text p:nth-child(3)::before {
+    content: "\1F3E0"; /* Código para o símbolo do endereço */
+    margin-right: 5px;
+  }

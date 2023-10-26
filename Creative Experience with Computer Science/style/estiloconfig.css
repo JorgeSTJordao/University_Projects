@@ -1,0 +1,197 @@
+.container{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1.05fr 2.5fr 1fr;
+  grid-template-areas:" . . . "
+                      " . title1 ."
+                      " . main1 . "
+                      " . title2 . "
+                      " . main2 . "
+                      " . title3 . "
+                      " . about . "
+                      " footer footer footer";
+  font-family: 'Crimson Text', serif;                
+}
+
+/*--------------------------------------------------------*/
+#title1{
+  margin-left: 20px;
+  background-color: #F5F5DC;
+  margin-top: 150px;  
+  grid-area: title1;
+}
+
+#main1{
+  background-color: #F5F5DC;
+  display: flex;
+  grid-area: main1;
+  margin-bottom: 20px;
+  border-top: solid 1px;
+}
+
+#main1 .descricao1{
+  width: 50%;
+  margin-left: 20px;
+}
+
+.descricao1 input{
+  border: solid 1px;
+  border-radius: 4px;
+  border-color: gray;
+  background-color: #DCD8C4;
+  height: 20px;
+}
+
+.descricao1 select{
+  border: solid 1px;
+  border-radius: 4px;
+  border-color: gray;
+  background-color: #DCD8C4;
+  height: 30px;
+}
+
+
+/*--------------------------------------------------------*/
+#title2{
+  background-color: #F5F5DC;
+  grid-area: title2;
+  margin-left: 20px;
+}
+
+
+#main2{
+  background-color: #F5F5DC;
+  grid-area: main2;
+  border-top: solid 1px;
+  margin-bottom: 20px;
+}
+
+#main2 .descricao2{
+  margin-left: 20px;
+}
+
+/* Entender melhor essa parte do código */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #8CC07F;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #8CC07F;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*--------------------------------------------------------*/
+#title3{
+  margin-left: 20px;
+  background-color: #F5F5DC;
+  grid-area: title3;
+}
+
+#about{
+  background-color: #F5F5DC;
+  grid-area: about;
+  border-top: solid 1px;
+}
+
+#about div{
+  margin-left: 20px;
+}
+/*--------------------------------------------------------*/
+#footer{
+  background-color: lightcoral;
+  grid-area: footer;
+
+}
+
+.rectangle {
+  background-color:  #8CC07F;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: auto;
+  left: 0;
+}
+
+.rectangle img {
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  width: 150px;
+  height: 150px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+
+.footer-text p:nth-child(1)::before {
+  content: "\260E"; /* Código para o símbolo do telefone */
+  margin-right: 5px;
+}
+
+.footer-text p:nth-child(2)::before {
+  content: "\1F4F1"; 
+  margin-right: 5px;
+}
+
+
+.footer-text p:nth-child(3)::before {
+  content: "\1F3E0"; /* Código para o símbolo do endereço */
+  margin-right: 5px;
+}

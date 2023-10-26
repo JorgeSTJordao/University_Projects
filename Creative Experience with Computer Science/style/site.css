@@ -1,0 +1,139 @@
+body{
+    width: 1366px;
+}
+
+.Cabeçalho{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*===========================================================================================*/
+
+.menu{
+    position: relative;
+    height: 768px;
+    width: 1366px;
+}
+
+.Menu{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.barraPesquisa{
+    background-color: black;
+    position: absolute;
+    position: relative;
+    width: 450px;
+    height: 50px;
+    top: 121px;
+    left: 565px;
+} 
+
+.textopesquisa{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 121px;
+    left: 200px;
+}
+.mais{
+    background-color: black;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 152px;
+    left: 283px;
+    border-radius: 90px;
+}
+
+.lista{
+    background-color: black;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 152px;
+    left: 378px;
+    border-radius: 90px;
+}
+
+.favorito{
+    background-color: black;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 78px;
+    left: 1173px;
+    border-radius: 90px;
+}
+
+.restaurante{
+    background-color: black;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 402px;
+    left: 110px;
+    border-radius: 100px;
+}
+
+.pontosTur{
+    background-color: black;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 402px;
+    left: 440px;
+    border-radius: 100px;
+}
+
+.comercio{
+    background-color: black;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 402px;
+    left: 765px;
+    border-radius: 100px;
+}
+
+.curiosidades{
+    background-color: black;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 402px;
+    left: 1095px;
+    border-radius: 100px;
+}
+
+/*==================================================================================================*/
+
+.rodape{
+    margin-top: 0px;
+}
+
+.Rodape{
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.contato{
+    background-color: black;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 215px;
+    left: 490px;
+    border-radius: 100px;
+}
+
+.mapa{
+    background-color: black;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    top: 215px;
+    left: 820px;
+    border-radius: 100px;
+}
+
