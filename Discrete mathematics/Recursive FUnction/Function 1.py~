@@ -1,0 +1,8 @@
+
+
+def main():
+    n = int(input("Digite um número menor que 10: "))
+
+    iter_()
+
+main()

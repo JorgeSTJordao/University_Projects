@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28761aa1-7427-49fc-b2c0-a1c18e286afd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Ciber-physical systems Perfomance/Class09/understanding_multiprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ciber-physical systems Perfomance/Class09/understanding_multithreading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ciber-physical systems Perfomance/Class09/multiprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ciber-physical systems Perfomance/Class09/2. multiprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ciber-physical systems Perfomance/Class09/multiprocess2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ciber-physical systems Perfomance/Class09/2.1 multiprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ciber-physical systems Perfomance/Class09/parallel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ciber-physical systems Perfomance/Class09/1. parallel.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2XC5sWP6rr3HKS5mLDF6T5WPKwg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/jorge/OneDrive/GitHub/University_Projects"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28761aa1-7427-49fc-b2c0-a1c18e286afd" name="Changes" comment="" />
+      <created>1698120429761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698120429761</updated>
+    </task>
+    <servers />
+  </component>
+</project>
