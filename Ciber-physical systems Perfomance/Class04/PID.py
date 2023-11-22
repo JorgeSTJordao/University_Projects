@@ -1,4 +1,3 @@
-# Time waiting
 from time import time, sleep
 # Operating System
 from os import getpid, getppid
@@ -14,6 +13,4 @@ def main():
     period = time() - start
     print("Time: {} secs".format(round(period, 5)))
 
-# Vários processos podem ocupar espaço, por isso o tempo de execução varia
-# Será criado dois processos, considerando que cada um deve ser executado em paralelo
 main()
