@@ -1,4 +1,4 @@
-![PUC Header](https://media.licdn.com/dms/image/D4D12AQHbvomergAhUA/article-cover_image-shrink_720_1280/0/1660573310659?e=2147483647&v=beta&t=6cIPZUAdDpBPmWuIimndpTPBBNhg4nVnvI1fxFGvFK0)
+[<img src="https://miro.medium.com/v2/resize:fit:638/1*iND_uCSZM-UMdl5v5XxijA.png" height="400" width="900"/>](puc.png)
 # *University Projects*
 If you are interested about what was **my most recent** project on University, this is the right place. Go ahead!
 ## *Files Summary*
