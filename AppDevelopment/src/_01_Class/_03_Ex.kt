@@ -1,20 +1,21 @@
+//Ref: https://www.programiz.com/kotlin-programming/examples/sort-custom-objects-property#:~:text=For%20sorting%20the%20list%20with,stored%20in%20the%20variable%20sortedList%20.
+
 package _01_Class
 
-import javafx.collections.transformation.SortedList
-
 class Pessoa(val nome: String, val idade: Int){
-
 }
 
 fun main() {
-    var arrayPessoas: MutableList<Pessoa> = mutableListOf(
-        Pessoa("Peter", 23),
-        Pessoa("Harry", 28),
-        Pessoa("Mary Jane", 22)
-    )
+    //Lista de pessoas
+    val arrayPessoas = ArrayList<Pessoa>()
+    arrayPessoas.add(Pessoa("Peter Parker", 23))
+    arrayPessoas.add(Pessoa("Harry Osborn", 28))
+    arrayPessoas.add(Pessoa("Mary Jane", 22))
 
-    var last = arrayPessoas.indexOf(Pessoa("Peter", 23))
 
-    arrayPessoas = arrayPessoas.sortedBy{}
-    print(arrayPessoas)
+    val sortedList = arrayPessoas.sortedWith(compareBy{it.nome})
+
+    for (pessoa in sortedList){
+        println(pessoa.nome)
+    }
 }

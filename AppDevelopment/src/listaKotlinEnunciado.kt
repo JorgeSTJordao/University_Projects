@@ -10,23 +10,26 @@
 // ordem alfabética pelo atributo "nome".
 
 
-
 // 4. Crie uma função que receba uma string e retorne verdadeiro se a
 // string for um palíndromo (ou seja, pode ser lida da mesma forma de trás para frente).
 
 // 5. Implemente uma função lambda que retorne o maior valor entre dois números.
 
 
-// 6. Crie uma classe "ContaBancaria" com os atributos "saldo" e "limite". Adicione um método chamado "saque" que recebe um valor como parâmetro e subtrai do saldo da conta. Se o valor do saque for maior que o saldo da conta, o método deve lançar uma exceção com a mensagem "Saldo insuficiente". 
+// 6. Crie uma classe "ContaBancaria" com os atributos "saldo" e "limite".
+// Adicione um método chamado "saque" que recebe um valor como parâmetro e
+// subtrai do saldo da conta. Se o valor do saque for maior que o saldo da conta,
+// o método deve lançar uma exceção com a mensagem "Saldo insuficiente".
+
+
+// 7. Crie uma função que receba uma lista de strings e
+// retorne a string mais longa da lista.
 
 
 
-// 7. Crie uma função que receba uma lista de strings e retorne a string mais longa da lista. 
-
-
-
-// 8. Crie uma classe "Funcionario" com os atributos "nome", "idade" e "salario". Crie uma função que receba uma lista de funcionários e retorne o funcionário com o maior salário. 
-
+// 8. Crie uma classe "Funcionario" com os atributos "nome", "idade" e "salario".
+// Crie uma função que receba uma lista de funcionários e retorne o
+// funcionário com o maior salário.
 
 
 
