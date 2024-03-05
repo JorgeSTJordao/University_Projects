@@ -1,3 +1,5 @@
+package a01_Class
+
 // 1. Crie uma função que receba um número inteiro e retorne verdadeiro se o
 // número for par e falso caso contrário.
 
