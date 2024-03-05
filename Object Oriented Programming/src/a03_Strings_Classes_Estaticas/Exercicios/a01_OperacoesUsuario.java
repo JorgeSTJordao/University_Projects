@@ -5,6 +5,22 @@ import java.util.Scanner;
 public class a01_OperacoesUsuario {
     public static void main(String[] args) {
 
+        /*
+         O códigos será divido em três partes com o objetivo de trabalhar no contexto de manipulação de dados
+
+         A partir disso, antes da primeira linha tracejada temos as seguintes resoluções
+
+         - O input recebe um string do usuário
+         - O 1º valor é transformado em maiúsculo
+         - O 2º valor é transformado em minúsculo
+
+         O outro input verifica se uma substring digitada pelo usuário está presente na string anterior
+
+         - Caso esteja, ele irá imprimir o valor e a posiçao inicial onde a substring se localiza na string
+
+         Por fim, os valores de entrada restantes irão receber strings, porém devem ser classificadas como iguais, independentemente se é maiúscula ou minúscula
+
+         */
         Scanner input = new Scanner(System.in);
 
         System.out.print("Digite uma string qualquer: ");
