@@ -31,7 +31,7 @@ public class a02_Projetil {
             double x0 = v0*Math.cos(teta)*ti;
             double y0 = v0*Math.sin(teta)*ti - (g*Math.pow(t, 2))/2;
 
-            System.out.print("t = %: (%, %d)".format(ti, x0, y0));
+            System.out.printf("t = %s: (%s, %s)", ti, x0, y0);
         }
     }
 }
