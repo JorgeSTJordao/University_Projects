@@ -1,8 +1,6 @@
-package Aula_02_Logica_Repeticao;
+package a02_Fundamental;
 
-import java.math.*;
-
-public class _01_BibliotecaMath {
+public class BibliotecaMath {
     public static void main(String[] args) {
         System.out.println(Math.pow(3.0, 2.0));
         System.out.println(Math.TAU);

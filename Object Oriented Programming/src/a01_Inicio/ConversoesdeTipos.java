@@ -1,4 +1,6 @@
-class Aula{
+package a01_Inicio;
+
+public class ConversoesdeTipos {
     public static void main(String[] args) {
 
         // 1th part

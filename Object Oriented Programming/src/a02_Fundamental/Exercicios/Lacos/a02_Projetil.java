@@ -1,10 +1,10 @@
-package Aula_02_Logica_Repeticao.Exercicios;
+package a02_Fundamental.Exercicios.Lacos;
 
 import java.util.Scanner;
 import java.util.Locale;
 
 
-public class _05_Projetil {
+public class a02_Projetil {
 
 
     public static void main(String[] args) {

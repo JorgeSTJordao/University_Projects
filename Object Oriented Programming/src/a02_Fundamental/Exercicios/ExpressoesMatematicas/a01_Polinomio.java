@@ -1,9 +1,8 @@
-package Aula_02_Logica_Repeticao.Exercicios;
+package a02_Fundamental.Exercicios.ExpressoesMatematicas;
 
 import java.util.Scanner;
-import java.math.*;
 
-public class _01_Polinomio {
+public class a01_Polinomio {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

@@ -1,8 +1,8 @@
-package Aula_02_Logica_Repeticao.Exercicios;
+package a02_Fundamental.Exercicios.Decisoes;
 
 import java.util.Scanner;
 
-public class _02_EquacaoQuadratica {
+public class a01_EquacaoQuadratica {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

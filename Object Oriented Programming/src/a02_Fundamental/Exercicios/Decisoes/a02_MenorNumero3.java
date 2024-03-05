@@ -1,9 +1,9 @@
-package Aula_02_Logica_Repeticao.Exercicios;
+package a02_Fundamental.Exercicios.Decisoes;
 
 import java.util.Scanner;
 import java.util.Locale;
 
-public class _03_MenorNumero {
+public class a02_MenorNumero3 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -20,15 +20,12 @@ public class _03_MenorNumero {
 
         if (a > b || a > c){
             if (b > c){
-                float menor = c;
-                System.out.printf("O valor de %s é o menor", menor);
+                System.out.printf("O valor de %s é o menor", c);
             } else {
-                float menor = b;
-                System.out.printf("O valor de %s é o menor", menor);
+                System.out.printf("O valor de %s é o menor", b);
             }
         }else{
-            float menor = a;
-            System.out.printf("O valor de %s é o menor", menor);
+            System.out.printf("O valor de %s é o menor", a);
         }
     }
 }

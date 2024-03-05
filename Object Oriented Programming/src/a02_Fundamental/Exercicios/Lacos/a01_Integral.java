@@ -1,9 +1,9 @@
-package Aula_02_Logica_Repeticao.Exercicios;
+package a02_Fundamental.Exercicios.Lacos;
 
 import java.util.Scanner;
 import java.util.Locale;
 
-public class _04_Integral {
+public class a01_Integral {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         input.useLocale(Locale.US);
