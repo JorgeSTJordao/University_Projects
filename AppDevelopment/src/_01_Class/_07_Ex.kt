@@ -1,19 +1,19 @@
 package _01_Class
 
-fun maiorPalavra(vararg arrayPalavras: MutableList<String>): String{
 
-    var maiorPalava = ""
+fun maiorPalavra(arrayPalavras: List<String>): String{
+
+    var maiorPalava = arrayPalavras[0]
 
     for (palavra in arrayPalavras){
-        if (palavra.toString().length > maiorPalava.length)
-            maiorPalava = palavra.toString()
+        if (palavra.length > maiorPalava.length)
+            maiorPalava = palavra
     }
-
     return maiorPalava
 }
 
 fun main() {
-    val arrayPalavras = mutableListOf("Banana", "Pera", "Abacaxi")
+    val arrayPalavras = listOf("Bananax", "Pera", "Abacaxi")
 
     println(maiorPalavra(arrayPalavras))
 }

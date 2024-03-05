@@ -12,7 +12,7 @@ fun main() {
     arrayPessoas.add(Pessoa("Harry Osborn", 28))
     arrayPessoas.add(Pessoa("Mary Jane", 22))
 
-
+    //Lista ordenada
     val sortedList = arrayPessoas.sortedWith(compareBy{it.nome})
 
     for (pessoa in sortedList){
