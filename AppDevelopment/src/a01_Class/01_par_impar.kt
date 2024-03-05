@@ -1,4 +1,4 @@
-package _01_Class
+package a01_Class
 
 fun parOuImpar(num: Int): Boolean{
     if (num % 2 == 0)

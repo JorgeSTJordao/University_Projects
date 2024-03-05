@@ -1,6 +1,4 @@
-package _01_Class
-
-import kotlin.math.max
+package a01_Class
 
 fun maxNumber(nums_array: IntArray): Int{
     return nums_array.max()

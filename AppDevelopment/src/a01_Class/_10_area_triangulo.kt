@@ -1,4 +1,4 @@
-package _01_Class
+package a01_Class
 
 class Triangulo(val altura: Float, val base: Float){
     fun area(): String{

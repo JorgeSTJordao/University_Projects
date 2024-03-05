@@ -1,4 +1,4 @@
-package _01_Class
+package a01_Class
 
 fun palindromo(palavra: String): String{
 

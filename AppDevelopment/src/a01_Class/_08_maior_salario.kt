@@ -1,4 +1,4 @@
-package _01_Class
+package a01_Class
 
 fun maiorSalario(funcinariosDados: List<Funcionario>): Float{
     var maior_salario = funcinariosDados[0].salario

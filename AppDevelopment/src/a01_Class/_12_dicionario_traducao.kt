@@ -1,4 +1,4 @@
-package _01_Class
+package a01_Class
 
 fun main() {
     val dicionario = mapOf(Pair("Banana", "Banana"), Pair("Avião", "Plane"), Pair("Lago", "Lake"))

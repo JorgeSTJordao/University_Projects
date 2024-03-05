@@ -1,4 +1,4 @@
-package _01_Class
+package a01_Class
 
 fun highestNumberFun(num1: Int, num2: Int): Int{
     if (num1 > num2)

@@ -1,6 +1,6 @@
 //Ref: https://www.programiz.com/kotlin-programming/examples/sort-custom-objects-property#:~:text=For%20sorting%20the%20list%20with,stored%20in%20the%20variable%20sortedList%20.
 
-package _01_Class
+package a01_Class
 
 class Pessoa(val nome: String, val idade: Int){
 }
