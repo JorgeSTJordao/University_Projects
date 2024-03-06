@@ -1,23 +1,22 @@
 package a01_Class
 
-fun palindromo(palavra: String): String{
+fun palindromo(palavra: String): Boolean{
 
     //Função Bult-in
-    //return palavra.reversed()
+    //return palavra.reversed() == palavra
 
     //Usando somente "for"
-
     var palavraInversa = ""
 
     for (i in palavra.length - 1 downTo 0){
         palavraInversa = palavraInversa.plus(palavra[i])
     }
 
-    return palavraInversa
+    return palavraInversa == palavra
 }
 
 fun main() {
     val palavra = "abbc"
 
-    if (palavra == palindromo(palavra)) println(true) else println(false)
+    println(palindromo(palavra))
 }
