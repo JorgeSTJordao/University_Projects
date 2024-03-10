@@ -1,11 +1,16 @@
 package a01_Class
 
-fun parOuImpar(num: Int): Boolean{
-    return num % 2 == 0
+fun parOuImpar(num: Int): String{
+    if (num % 2 == 0)
+        return "Par"
+    return "Ímpar "
 }
 
 fun main() {
-    val num: Int = 5
+    print("Digite um número inteiro: ")
+    val num = readLine()?.toIntOrNull()
 
-    println(parOuImpar(num))
+    num?.let{
+        println(parOuImpar(num))
+    }
 }

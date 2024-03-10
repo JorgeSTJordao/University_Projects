@@ -23,10 +23,9 @@ fun sortList(numList: IntArray): IntArray{
 }
 
 fun main() {
-    var numsList = intArrayOf(3, 6, 2, 5, 4)
+    val numsList = intArrayOf(3, 6, 4, 4, -1)
 
     //println(sortList(numsList)). It's not printing like this, I dunno what I messed up
-
     for (num in sortList(numsList))
         print("$num ")
 }

@@ -14,7 +14,6 @@ fun main() {
     print("Digite o segundo número: ")
     val num2: Int = readln().toInt()
 
-    val highestNumber = highestNumberFun(num1, num2)
-    println("O maior número é: $highestNumber")
+    println("O maior número é: ${highestNumberFun(num1, num2)}")
 
 }

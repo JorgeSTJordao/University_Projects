@@ -9,11 +9,6 @@ fun alfabetoComA(arrayPalavras: List<String>): List<String> {
             arrayPalavrasA = arrayPalavrasA.plus(palavra)
     }
 
-    for (palavra in arrayPalavras){
-        for (letra in palavra){
-
-        }
-    }
     return arrayPalavrasA
 }
 

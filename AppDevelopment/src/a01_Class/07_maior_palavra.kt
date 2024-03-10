@@ -14,6 +14,5 @@ fun maiorPalavra(arrayPalavras: List<String>): String{
 
 fun main() {
     val arrayPalavras = listOf("Bananax", "Pera", "Abacaxi")
-
     println(maiorPalavra(arrayPalavras))
 }
