@@ -10,6 +10,7 @@ public class a01_strings {
     }
 
     public static void main(String[] args) {
+
         //Garbage collect
         //Criação explícita de um objeto String
         String frase = new String("Mas eis chega a roda-viva");
