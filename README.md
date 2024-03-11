@@ -10,7 +10,7 @@ If you in interested about what **my most recent projects** are while I'm in col
 - *Discrete mathematics*: I'm going to expande my math knowledge
 - *Ciber-physical systems Perfomance*: I can understand how the systems work
 - *Object-oriented Programming*: I gonna use the objects purpose as way to improve my coding skills
-- *Scientific Modeling*: I'm able to implement the concepts of limits, derivates and integral on Python
+- *Scientific Modeling*: I'm able to implement the concepts of limits, derivates and integral in Python
 - *Machine Learning*: I know what are the basic concepts and tools for Machine Learning
   
 ### Electives
