@@ -1,11 +1,11 @@
 package a01_Class
 
-fun maxNumber(nums_array: IntArray): Int{
-    return nums_array.max()
-}
+import kotlin.random.Random
+
+val maxNumber = {nums_array: MutableList<Int> -> nums_array.max()}
 
 fun main() {
-    val nums_array: IntArray = intArrayOf(1, 2, 52, 23)
-
-    println(maxNumber(nums_array))
+    val randomValues = MutableList(10) { Random.nextInt(0, 100)}
+    println(randomValues)
+    println(maxNumber(randomValues))
 }

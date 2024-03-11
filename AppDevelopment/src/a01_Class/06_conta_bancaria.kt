@@ -1,6 +1,6 @@
 package a01_Class
 
-class ContaBancaria(var saldo: Float, var limite: Float) {
+class ContaBancaria(var saldo: Float, val limite: Float) {
 
     fun saque(valorPedido: Float) {
 

@@ -1,19 +1,19 @@
 package a01_Class
 
-fun alfabetoComA(arrayPalavras: List<String>): List<String> {
+fun alfabetoComA(arrayPalavras: MutableList<String>): MutableList<String> {
 
-    var arrayPalavrasA: List<String> = listOf()
+    var arrayPalavrasA = mutableListOf<String>()
 
     for (palavra in arrayPalavras) {
         if (palavra.startsWith("A"))
-            arrayPalavrasA = arrayPalavrasA.plus(palavra)
+            arrayPalavrasA.add(palavra)
     }
 
     return arrayPalavrasA
 }
 
 fun main() {
-    val arrayPalavras = listOf("Arara", "Arpa", "Abacaxi", "Besta", "Arco")
+    val arrayPalavras = mutableListOf("Arara", "Arpa", "Abacaxi", "Besta", "Arco")
 
     print(alfabetoComA(arrayPalavras))
 }

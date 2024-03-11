@@ -1,6 +1,6 @@
 package a01_Class
 
-fun sortList(numList: IntArray): IntArray{
+fun sortList(numList: MutableList<Int>): MutableList<Int>{
     var aux: Int
     var indexMenor: Int = 0
 
@@ -23,7 +23,7 @@ fun sortList(numList: IntArray): IntArray{
 }
 
 fun main() {
-    val numsList = intArrayOf(3, 6, 4, 4, -1)
+    val numsList = mutableListOf(3, 6, 4, 4, -1)
 
     //println(sortList(numsList)). It's not printing like this, I dunno what I messed up
     for (num in sortList(numsList))
