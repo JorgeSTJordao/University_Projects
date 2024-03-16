@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8527eed7-b435-4d79-9cdd-775bba231906" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/AppDevelopment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/.idea/workspace-LAPTOP-6TDCOHBG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/AppDevelopment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/01_par_impar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/02_numero_maximo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/03_ordem_nomes.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/04_palindromo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/05_maior_numero.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/06_conta_bancaria.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/07_maior_palavra.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/08_maior_salario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/09_ordenar_lista.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/10_area_triangulo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/11_ordenar_com_A.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/12_dicionario_traducao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/13_numerosFuncaoOrdemSuperior.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/14_palindromo_avancado.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/15_funcaoOrdemSuperior.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a01_Class/listaKotlinEnunciado.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinStudies/src/a02_Class/01_introducao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kotlin_Practice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/FunctionComposition/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/FunctionComposition/samples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam/Question1/01. Exercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam/Question1/02. Exercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam/Question1/03. Exercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam/Question1/04. Exercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam/Question2/Exercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam/Question3/Exercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam/Question3/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q1/1.a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q1/1.b.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q1/1.c.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q1/1.d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q1/1.e.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q1/1.f.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q1/1.g.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q10/Ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q10/Ex2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q11/Ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q2/Ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q3/Ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q8/Ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q8/Ex2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q8/Ex3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Exam2/Q9/9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Expo_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/RecursiveFunction/Recursive function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/SetOperations/Conjuntos e Operações.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/SetOperations/arquivo1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/SetOperations/arquivo2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DiscreteMathematics/SetOperations/arquivo3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/OOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a01_Inicio/ConversoesdeTipos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a02_Fundamental/BibliotecaMath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a02_Fundamental/Exercicios/Decisoes/a01_EquacaoQuadratica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a02_Fundamental/Exercicios/Decisoes/a02_MenorNumero3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a02_Fundamental/Exercicios/ExpressoesMatematicas/a01_Polinomio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a02_Fundamental/Exercicios/Lacos/a01_Integral.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a02_Fundamental/Exercicios/Lacos/a02_Projetil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a03_Strings_Classes_Estaticas/Exercicios/a01_OperacoesUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a03_Strings_Classes_Estaticas/Exercicios/a02_LexicografiaI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a03_Strings_Classes_Estaticas/StringsMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a03_Strings_Classes_Estaticas/a01_strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a03_Strings_Classes_Estaticas/a02_strings2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a03_Strings_Classes_Estaticas/a03_readString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a03_Strings_Classes_Estaticas/a04_stringsFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a03_Strings_Classes_Estaticas/a05_somatoriaCoordenadas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ObjectOrientedProgramming/src/a03_Strings_Classes_Estaticas/a06_calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ScientificModelling/Class04/Exercício para definição de limites.ipynb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\jorge.LAPTOP-6TDCOHBG\.android\avd\Pixel_3a_API_34_extension_level_7_x86_64.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2dNuskmkwlYZq3inNAdTHFLwrIJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/jorge.LAPTOP-6TDCOHBG/OneDrive/GitHub/University_Projects/AppDevelopment/CalculadoraSimples",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="CalculadoraSimples.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8527eed7-b435-4d79-9cdd-775bba231906" name="Changes" comment="" />
+      <created>1709861065235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709861065235</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
