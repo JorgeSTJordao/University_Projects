@@ -5,6 +5,7 @@ import android.app.AlertDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import com.masterjorge.dialogbox.databinding.ActivityMainBinding
@@ -50,6 +51,16 @@ class MainActivity : AppCompatActivity() {
                 //Ir para próxima página
                 val intent = Intent(this, SegundaTela::class.java)
                 resultContrato.launch(intent)
+            } else {
+                val initAlertDialog = builderAlertDialog.create()
+                initAlertDialog.show()
+                
+                val mSetOkDialog = initAlertDialog.getButton(AlertDialog.BUTTON_POSITIVE)
+
+                mSetOkDialog.setOnClickListener{
+                    initAlertDialog.cancel()
+                    Toast.makeText(this, "Seguindo", Toast.LENGTH_SHORT).show()
+                }
             }
 
         }
