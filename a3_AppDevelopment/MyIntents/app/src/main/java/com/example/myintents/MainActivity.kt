@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     var counter = 0
 
-    val resultLaucher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
+    val resultLaucher = registerForActivityResult(ActivityResultContracts.StartActivityForResult())
+    {
         if(it.resultCode == RESULT_OK){
             val result = it.data?.getStringExtra("second")
             binding.textView.text = result
@@ -24,14 +25,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        /*setContentView(R.layout.activity_main)
-
-        findViewById<TextView>(R.id.textView).apply {
-            text = "Olá"
-        }*/
-
-        binding = DataBindingUtil.setContentView<ActivityMainBinding>(
-            this,R.layout.activity_main)
+        binding = DataBindingUtil.setContentView<ActivityMainBinding>(this,R.layout.activity_main)
         binding.textView.text = "text"
 
         binding.button3.setOnClickListener {

@@ -9,9 +9,7 @@ import com.example.myintents.databinding.ActivitySecondBinding
 class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = DataBindingUtil.setContentView<ActivitySecondBinding>(
-            this,
-            R.layout.activity_second)
+        val binding = DataBindingUtil.setContentView<ActivitySecondBinding>(this, R.layout.activity_second)
         val counterText = intent.getStringExtra("information")
         binding.secondTextView.text = counterText
 
