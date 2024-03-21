@@ -2,6 +2,7 @@ package com.masterjorge.dialogbox
 
 import android.app.Activity
 import android.app.AlertDialog
+import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -34,13 +35,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //Criando o objeto de caixa de diálogo
-        val builderAlertDialog: AlertDialog.Builder = AlertDialog.Builder(this)
-        builderAlertDialog
+        val builder1: AlertDialog.Builder = AlertDialog.Builder(this)
+        builder1
             .setTitle("Acesso negado")
             .setMessage("Insira seus dados novamente")
-            .setPositiveButton("OK") { dialog, which ->
-                dialog.cancel()
-            }
+            .setCancelable(true)
+
+        builder1.setPositiveButton(
+            "Certo"
+        ) { dialogInterface, i ->
+            dialogInterface.cancel()
+        }
 
         val edUserVar = binding.edUser
         val edPasswordVar = binding.edPassword
@@ -52,20 +57,10 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, SegundaTela::class.java)
                 resultContrato.launch(intent)
             } else {
-                val initAlertDialog = builderAlertDialog.create()
-                initAlertDialog.show()
-                
-                val mSetOkDialog = initAlertDialog.getButton(AlertDialog.BUTTON_POSITIVE)
-
-                mSetOkDialog.setOnClickListener{
-                    initAlertDialog.cancel()
-                    Toast.makeText(this, "Seguindo", Toast.LENGTH_SHORT).show()
+                val alert11: AlertDialog = builder1.create()
+                alert11.show()
                 }
             }
 
         }
-    }
-
-
-
 }

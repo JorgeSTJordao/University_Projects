@@ -20,22 +20,23 @@ class SegundaTela : AppCompatActivity() {
 
         val btnSave = binding.saveDataButton
         val edUser = binding.edUser
-        val edPassoword = binding.edPassword
+        val edPassword = binding.edPassword
 
         btnSave.setOnClickListener {
-            if (!edUser.text.isEmpty() && !edPassoword.text.isEmpty()) {
+            if (!edUser.text.isEmpty() && !edPassword.text.isEmpty()) {
                 Toast.makeText(this, "Dados atualizados", Toast.LENGTH_SHORT).show()
 
                 //Ir para próxima página
                 val intent = Intent(this, MainActivity::class.java)
                 intent.putExtra("edUser_", edUser.text.toString())
-                intent.putExtra("edPassword_", edPassoword.text.toString())
+                intent.putExtra("edPassword_", edPassword.text.toString())
                 Toast.makeText(this, "Seu dados foram alterados!", Toast.LENGTH_SHORT).show()
 
                 setResult(Activity.RESULT_OK, intent)
 
                 finish()
-            }
+            } else
+                Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show()
         }
     }
 }

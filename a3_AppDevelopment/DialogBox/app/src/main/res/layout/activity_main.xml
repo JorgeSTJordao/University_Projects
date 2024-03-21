@@ -47,7 +47,6 @@
         android:background="@drawable/rounded_corner"
         android:padding="10dp"
         android:inputType="numberDecimal"
-        android:onClick="loginClick"
         />
 
     <Button
