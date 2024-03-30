@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         //Selecionando um objeto
         binding.spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
-            override fun onItemSelected(adapterView: AdapterView<*>?, vew: View?, position: Int, id: Long) {
+            override fun onItemSelected(adapterView: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 Toast.makeText(
                     this@MainActivity,
                     "Selecionado: ${itens[position]}",
@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    //Baixar o conteúdo da pasta selecionada
+    //Receber o conteúdo do arquivo selecionada
     private fun loadContentFromFile(context: Context, filename: String): String?{
         return try {
             //Abre o arquivo
@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    //Função para salvar o arquivo
+    //Função para salvar os dados no arquivo
     //Acesso aos arquivos que serão salvos no formato string, e o nome também
     private fun saveContentToFile(context: Context, content: String, filename: String){
 
