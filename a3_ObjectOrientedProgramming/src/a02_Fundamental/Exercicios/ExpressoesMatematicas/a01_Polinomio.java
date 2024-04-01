@@ -3,6 +3,7 @@ package a02_Fundamental.Exercicios.ExpressoesMatematicas;
 import java.util.Scanner;
 
 public class a01_Polinomio {
+    //O(1)
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

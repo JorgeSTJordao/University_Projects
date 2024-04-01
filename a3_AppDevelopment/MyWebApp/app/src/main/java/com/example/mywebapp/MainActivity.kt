@@ -9,14 +9,15 @@ import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-//API Referência: https://api.chucknorris.io/
+//Site da API Referência: https://api.chucknorris.io/
+//Site da API Exercício: https://github.com/lukePeavey/quotable
 
 class MainActivity : AppCompatActivity() {
 
     //O retrofit é o responsável por importar as APIs
     private val retrofit = Retrofit.Builder()
         //.baseUrl("https://api.chucknorris.io")
-        .baseUrl("https://ipgeolocation.abstractapi.com/v1/")
+        .baseUrl("https://api.quotable.io")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
@@ -33,9 +34,9 @@ class MainActivity : AppCompatActivity() {
 
         binding.button.setOnClickListener{
             CoroutineScope(Dispatchers.Main).launch {
-                val response = api.geoLocate()
-                binding.tvContinent.text = response.continent
-                binding.tvHelloWorld.text = response.city
+                val response = api.quotes()
+                binding.tvFrase.text = response.content
+                binding.tvAutor.text = response.author
             }
         }
     }

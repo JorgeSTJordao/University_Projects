@@ -3,18 +3,15 @@ package a02_Fundamental.Exercicios.Lacos;
 import java.util.Scanner;
 import java.util.Locale;
 
-
 public class a02_Projetil {
 
-
+    //O(1)
     public static void main(String[] args) {
         final float g = 9.8f;
 
         Locale.setDefault(Locale.US);
 
-
         Scanner input = new Scanner(System.in);
-
 
         System.out.print("Digite o valor da distância: ");
         float s = input.nextFloat();
@@ -22,16 +19,24 @@ public class a02_Projetil {
         System.out.print("Digite o valor do ângulo: ");
         float teta = input.nextFloat();
 
-        double v0 = Math.sqrt((200*g)/(2*Math.sin(teta)*2*Math.cos(teta))) ;
 
-        double t = (2*v0*Math.sin(teta))/g;
+        //Velocidade inicial
+        double v0 = Math.sqrt((s*g)/(2*Math.sin(Math.toRadians(teta))*Math.cos(Math.toRadians(teta))));
 
-        for (double ti = 0.1; ti < t; t+=0.1){
+        //Tempo total
+        double tempoTotal = 2*v0*Math.sin(Math.toRadians(teta))/g;
 
-            double x0 = v0*Math.cos(teta)*ti;
-            double y0 = v0*Math.sin(teta)*ti - (g*Math.pow(t, 2))/2;
+        System.out.println("Velocidade inicial = " + v0 + " m/s");
+        System.out.println("Tempo total = " + tempoTotal + "s");
 
-            System.out.printf("t = %s: (%s, %s)", ti, x0, y0);
+        //O(T)
+        //A iteração permanece até o valor de t (tempo atual) ser igual ao tempo total (T)
+        for (double t = 0.1; t <= tempoTotal; t+=0.1){
+
+            double x0 = v0*Math.cos(Math.toRadians(teta))*t;
+            double y0 = v0*Math.sin(Math.toRadians(teta))*t - (g*Math.pow(t, 2))/2;
+
+            System.out.println(String.format("t = %s: (%s, %s)", t, x0, y0));
         }
     }
 }

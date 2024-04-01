@@ -9,14 +9,6 @@ class Camiseta{
 
     enum Modelo {TRADICIONAL, REGATA, GOLA_V;
 
-        public String getModelo(){
-            return switch (this) {
-                case TRADICIONAL -> "Tradicional";
-                case REGATA -> "Regata";
-                case GOLA_V -> "Gola V";
-            };
-        }
-
     }
     enum Tamanho {PEQUENO, MEDIO, GRANDE, EXTRA_GRANDE}
 
@@ -42,7 +34,5 @@ class Camiseta{
 public class Enumerados {
     public static void main(String[] args) {
         Camiseta camiseta1;
-        camiseta1.getDados("x", Camiseta.Modelo.get);
-
     }
 }

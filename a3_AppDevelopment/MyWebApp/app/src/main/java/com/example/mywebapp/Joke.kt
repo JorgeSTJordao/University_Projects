@@ -1,3 +1,7 @@
 package com.example.mywebapp
 
-data class Joke(val continent: String, val city:String)
+//Criamos as variáveis que armazenarão os dados que busca
+data class Joke(
+    val content: String,
+    val author: String
+)

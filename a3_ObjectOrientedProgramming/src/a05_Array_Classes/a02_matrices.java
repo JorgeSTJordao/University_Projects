@@ -8,11 +8,5 @@ public class a02_matrices {
         int[][] matrizInversa = {};
 
         System.out.println(Arrays.deepToString(matrice));
-
-        for (int i = 0; i < matrice.length; i++){
-            for (int j = 0; j < matrice[i].length; j++){
-                matrice[i][j] =
-            }
-        }
     }
 }

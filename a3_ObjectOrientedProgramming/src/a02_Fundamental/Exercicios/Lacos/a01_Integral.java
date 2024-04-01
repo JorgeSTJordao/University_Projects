@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.Locale;
 
 public class a01_Integral {
+    //O(1)
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         input.useLocale(Locale.US);
@@ -39,6 +40,7 @@ public class a01_Integral {
                 //Valor inicial da coordenada (x1, y1)
                 double y1 = 2 * Math.sin(x) + Math.cos(x) / 3;
 
+                //O(n)
                 while (i < n) {
                     x = x + altura;
 

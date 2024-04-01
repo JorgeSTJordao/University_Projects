@@ -3,6 +3,7 @@ package a02_Fundamental.Exercicios.Decisoes;
 import java.util.Scanner;
 
 public class a01_EquacaoQuadratica {
+    //O(1)
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

@@ -6,36 +6,59 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20.dp"
     tools:context=".MainActivity">
 
+
     <TextView
-        android:id="@+id/tv_HelloWorld"
+        android:id="@+id/tv_Welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cidade"
+        android:layout_marginStart="48dp"
+        android:text="Frases Motivacionais"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_Frase"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <TextView
+        android:id="@+id/tv_Frase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frase"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_Autor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <TextView
+        android:id="@+id/tv_Autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="144dp"
         android:text="@string/get_new_joke"
-        app:layout_constraintEnd_toEndOf="@+id/tv_HelloWorld"
-        app:layout_constraintHorizontal_bias="0.525"
-        app:layout_constraintStart_toStartOf="@+id/tv_HelloWorld"
-        app:layout_constraintTop_toBottomOf="@+id/tv_HelloWorld" />
+        app:layout_constraintEnd_toEndOf="@+id/tv_Autor"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/tv_Autor"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Autor" />
 
-    <TextView
-        android:id="@+id/tv_Continent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Continente"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="285dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
