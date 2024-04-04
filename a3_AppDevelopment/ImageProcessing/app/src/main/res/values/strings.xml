@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Image Processing</string>
+    <string name="btn_Capturar">Capturar</string>
+    <string name="btn_Galeria">Galeria</string>
 </resources>

@@ -1,4 +1,7 @@
 package com.example.myrecycleviewapplication
 
-class City {
-}
+data class City(
+    var name: String,
+    var population: Int,
+    var isCapital: Boolean = false
+)

@@ -1,20 +1,34 @@
 package com.masterjorge.imageprocessing
 
+import android.hardware.Camera
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.masterjorge.imageprocessing.databinding.ActivityFotografiaBinding
 
 class Fotografia : AppCompatActivity() {
+
+    lateinit var camera: Camera
+    lateinit var frameLayout: FrameLayout
+    lateinit var cameraPreview: CameraPreview
+
+    //private var mPreview: CameraPreview? = null
+
+    lateinit var binding: ActivityFotografiaBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_fotografia)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+
+        binding = ActivityFotografiaBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        frameLayout = binding.flFrame
+
+        //Abrir um processo que executa a câmera
+        camera = Camera.open()
+
+        //Mostra a câmera (Inicia a classe "CameraPreview")
+        cameraPreview = CameraPreview(this, camera)
+        frameLayout.addView(cameraPreview)
+
     }
 }

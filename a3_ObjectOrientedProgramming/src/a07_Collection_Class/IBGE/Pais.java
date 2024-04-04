@@ -7,18 +7,42 @@ public class Pais {
     //Estados
     ArrayList<Estado> estados = new ArrayList<>();
 
-    public Pais(Estado e1, Estado e2)
-    {
-        estado1 = e1;
-        estado2 = e2;
+    //Nome
+    String nome;
+
+    //População de todos os estados
+    int populacaoTotalEstados;
+
+    //Área total de todos os estados
+    double areaTotalEstados;
+
+    public Pais(String nome){
+        this.nome = nome;
+        populacaoTotalEstados = 0;
+        areaTotalEstados = 0;
     }
-    int populacao()
-    {
-        return estado1.populacao() + estado2.populacao();
+
+    public void adicionarEstado(Estado estado){
+        estados.add(estado);
+        populacaoTotalEstados += populacao(estado);
+        areaTotalEstados += area(estado);
     }
-    double area()
-    {
-        return estado1.area() + estado2.area();
+
+    int populacao(Estado estado)
+    { return estado.populacaoTotalMunicipios; }
+    double area(Estado estado)
+    { return estado.areaTotalMunicipios; }
+    double densidade() {
+        return populacaoTotalEstados/ areaTotalEstados;
     }
-    double densidade() { return populacao() / area(); }
+
+    public int menorPopulacaoEstado(){
+        int menorPopulacao = estados.get(0).populacaoTotalMunicipios;
+        for (Estado estado : estados){
+            if (estado.populacaoTotalMunicipios < menorPopulacao){
+                menorPopulacao = estado.populacaoTotalMunicipios;
+            }
+        }
+        return menorPopulacao;
+    }
 }

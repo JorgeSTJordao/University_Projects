@@ -1,14 +1,22 @@
 package a07_Collection_Class.IBGE;
 
 public class Municipio {
-    private int populacao;
-    private double area;
 
-    public Municipio(int populacao, double area) {
+    final String nome;
+
+    int populacao;
+
+    private final double area;
+
+    public Municipio(String nome, int populacao, double area) {
+        this.nome = nome;
         this.populacao = populacao;
         this.area = area;
     }
 
+    public String nome(){
+        return nome;
+    }
     public int populacao() {
         return populacao;
     }
