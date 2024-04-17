@@ -22,7 +22,7 @@ public class a1_Q1 {
     }
     public static void main(String[] args) {
         //Dividir os números por dois a partir de determinadas condições
-        System.out.println(f(256, 6));
+        System.out.println(f(128, 6));
         System.out.println(f(-60.8, -4));
     }
 }

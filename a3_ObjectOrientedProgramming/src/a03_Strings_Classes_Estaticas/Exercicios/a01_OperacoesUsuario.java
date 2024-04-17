@@ -3,39 +3,37 @@ package a03_Strings_Classes_Estaticas.Exercicios;
 import java.util.Scanner;
 
 public class a01_OperacoesUsuario {
+
+    private static String letrasMaisculas(String palavra){
+        return "Letra maiúscula: " + palavra.toUpperCase();
+    }
+
+    private static String letrasMinusculas(String palavra){
+        return "Letra minúscula: " + palavra.toLowerCase();
+    }
+
+    private static String substringPalavra(int min, int max, String palavra){
+        return "Subtring (3 primeiros caracteres): " + palavra.substring(min, max);
+    }
+
     public static void main(String[] args) {
 
-        /*
-         O códigos será divido em três partes com o objetivo de trabalhar no contexto de manipulação de dados
-
-         A partir disso, antes da primeira linha tracejada temos as seguintes resoluções
-
-         - O input recebe um string do usuário
-         - O 1º valor é transformado em maiúsculo
-         - O 2º valor é transformado em minúsculo
-
-         O outro input verifica se uma substring digitada pelo usuário está presente na string anterior
-
-         - Caso esteja, ele irá imprimir o valor e a posiçao inicial onde a substring se localiza na string
-
-         Por fim, os valores de entrada restantes irão receber strings, porém devem ser classificadas como iguais, independentemente se é maiúscula ou minúscula
-
-         */
         Scanner input = new Scanner(System.in);
 
         System.out.print("Digite uma string qualquer: ");
-        String stringValue = input.nextLine();
+        String palavra = input.nextLine();
 
-        System.out.println("String maiúscula: " + stringValue.toUpperCase());
-        System.out.println("String minúscula: " + stringValue.toLowerCase());
-        System.out.println("Subtring (3 primeiros caracteres): " + stringValue.substring(0, 3));
+        System.out.println(letrasMaisculas(palavra));
+        System.out.println(letrasMinusculas(palavra));
+        System.out.println(substringPalavra(0, 3, palavra));
+
 
         System.out.println("-------------");
 
         System.out.print("Digite uma parte da string: ");
         String stringPart = input.nextLine();
 
-        if (stringValue.contains(stringPart)){
+        /*if (stringValue.contains(stringPart)){
             System.out.printf(
                     "Substring digitada: %s | Índice inicial: %d",
                     stringValue.contains(stringPart), stringValue.indexOf(stringPart));
@@ -56,6 +54,6 @@ public class a01_OperacoesUsuario {
         } else {
             System.out.println("Strings distintas");
         }
-
+        */
     }
 }

@@ -8,8 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.myrecycleviewapplication.databinding.ItemViewBinding
 
 //Pega os elementos para colocar
-class CityAdapter(val clickListener: onCityClickListener)
-    : RecyclerView.Adapter<CityAdapter.ViewHolder>() {
+class CityAdapter(val clickListener: onCityClickListener): RecyclerView.Adapter<CityAdapter.ViewHolder>() {
 
         //Verificar se cada item teve o clique
         interface onCityClickListener{

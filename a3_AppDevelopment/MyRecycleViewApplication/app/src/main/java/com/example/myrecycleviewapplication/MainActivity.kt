@@ -15,9 +15,11 @@ import com.example.myrecycleviewapplication.databinding.ActivityMainBinding
 //Criação do layout em cada um dos itens
 
 class MainActivity : AppCompatActivity() {
+    //Criando a função
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        //Variável databinding
         val binding : ActivityMainBinding =
             DataBindingUtil.setContentView<ActivityMainBinding>(
                 this,R.layout.activity_main
@@ -27,12 +29,12 @@ class MainActivity : AppCompatActivity() {
         binding.mainRecyclerView.adapter =
             CityAdapter(object : CityAdapter.onCityClickListener{
             override fun onCityClick(view: View, position: Int) {
+                //Variável que armazena as cidades e a posição em que deve ser acrescentado a
+                // variável Clicked
                 Singleton.cities[position].apply {
                     name = name + "Clicked"
                 }
-                binding.
-                mainRecyclerView.
-                adapter?.notifyItemChanged(position)
+                binding.mainRecyclerView.adapter?.notifyItemChanged(position)
             }
 
                 override fun onCityLongClick(view: View, position: Int) {
@@ -44,11 +46,13 @@ class MainActivity : AppCompatActivity() {
 
             })
 
+        //Criando a lista de cidades
         for (i in 0..10){
             Singleton.cities.add(
                 City("City $i", i)
             )
         }
+
 
         binding.mainRecyclerView.layoutManager = LinearLayoutManager(this)
         binding.mainRecyclerView.setOnClickListener {
