@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Camera Processing</string>
+    <string name="open_camera">Fotografar\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fotoalfa">FotoAlfa</string>
+</resources>
