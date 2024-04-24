@@ -23,9 +23,12 @@
             android:layout_marginTop="28dp"
             android:layout_marginEnd="38dp"
             android:clickable="true"
+            android:contentDescription="TODO"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:drawable/ic_menu_save" />
+            app:srcCompat="@android:drawable/ic_menu_save"
+            tools:ignore="ContentDescription,HardcodedText,TouchTargetSizeCheck"
+            android:focusable="true" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabReturn"
@@ -34,11 +37,14 @@
             android:layout_marginStart="38dp"
             android:layout_marginTop="28dp"
             android:clickable="true"
+            android:contentDescription="TODO"
+            android:focusable="true"
             app:layout_constraintEnd_toStartOf="@+id/fabSave"
             app:layout_constraintHorizontal_bias="0.062"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@android:drawable/ic_input_delete" />
+            app:srcCompat="@android:drawable/ic_input_delete"
+            tools:ignore="ContentDescription,HardcodedText,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
 
         <ImageView
             android:id="@+id/img_viewer"
@@ -48,7 +54,8 @@
             android:layout_marginTop="108dp"
             android:importantForAccessibility="no"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
 
         <Button
             android:id="@+id/btNormal"
@@ -56,7 +63,7 @@
             android:layout_height="60dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
-            android:text="Normal"
+            android:text="@string/normal"
             android:backgroundTint="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/img_viewer"
@@ -70,7 +77,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/black"
-            android:text="Contraste"
+            android:text="@string/contraste"
             app:cornerRadius="14dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btNormal"
@@ -83,10 +90,12 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/black"
-            android:text="Brilho"
+            android:text="@string/brilho"
+            android:textColor="#3E2723"
             app:cornerRadius="14dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button3" />
+            app:layout_constraintTop_toBottomOf="@+id/button3"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/btNegative"
@@ -95,7 +104,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/black"
-            android:text="Negativo"
+            android:text="@string/negativo"
             app:cornerRadius="14dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btBrightness" />
@@ -107,7 +116,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/black"
-            android:text="Cinza"
+            android:text="@string/cinza"
             app:cornerRadius="14dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btNegative" />
@@ -119,7 +128,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/black"
-            android:text="Sépia"
+            android:text="@string/sepia"
             app:cornerRadius="14dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btCinza" />
@@ -131,7 +140,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="28dp"
             android:backgroundTint="@color/black"
-            android:text="Sobel"
+            android:text="@string/sobel"
             app:cornerRadius="14dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btSepia" />
@@ -149,7 +158,8 @@
             android:min="0"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button3"
-            app:layout_constraintTop_toBottomOf="@+id/img_viewer" />
+            app:layout_constraintTop_toBottomOf="@+id/img_viewer"
+            tools:ignore="UnusedAttribute" />
 
         <SeekBar
             android:id="@+id/sbBrightness"
@@ -161,7 +171,8 @@
             android:min="0"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/btBrightness"
-            app:layout_constraintTop_toBottomOf="@+id/sbConstrast" />
+            app:layout_constraintTop_toBottomOf="@+id/sbConstrast"
+            tools:ignore="UnusedAttribute" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

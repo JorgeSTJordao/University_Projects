@@ -4,4 +4,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="fotoalfa">FotoAlfa</string>
+    <string name="normal">Normal</string>
+    <string name="contraste">Contraste</string>
+    <string name="brilho">Brilho</string>
+    <string name="negativo">Negativo</string>
+    <string name="cinza">Cinza</string>
+    <string name="sepia">Sépia</string>
+    <string name="sobel">Sobel</string>
 </resources>

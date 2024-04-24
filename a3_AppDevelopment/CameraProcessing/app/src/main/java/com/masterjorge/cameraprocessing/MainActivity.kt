@@ -22,6 +22,10 @@ import com.masterjorge.cameraprocessing.databinding.ActivityMainBinding
 //https://developer.android.com/codelabs/camerax-getting-started#1
 
 class MainActivity : AppCompatActivity() {
+
+    //Código para iniciar a Activity
+
+
     private val REQUEST_IMAGE_CAPTURE = 1
     private val REQUEST_CAMERA_PERMISSION = 2
     private val REQUEST_WRITE_EXTERNAL_STORAGE_PERMISSION = 3
@@ -33,35 +37,47 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        //Aperta o botão "Fotografar" e verifica as permissões
         binding.btnCamera.setOnClickListener {
             if (allPermissionsGranted()){
                 dispatchTakePictureIntent()
             } else {
+                //Caso as permissões ainda não estejam abertas
                 requestPermissions()
             }
         }
     }
 
+    //Tirar foto
     private fun dispatchTakePictureIntent() {
+        //Vai para a Activity de tirar foto
         val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         try {
+            //O 1º param é a Intent criada, enquanto o 2º é o código atribuímos a Activity
             startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE)
+
+            //Caso a Activity não seja encontrada, iremos lançar um Toast para simbolizar uma falha
         } catch (e: ActivityNotFoundException) {
             Toast.makeText(this, "Camera não encontrada", Toast.LENGTH_SHORT).show()
         }
     }
 
+    //Usada para receber dados de uma outra Activity
+    //Código, resultCode: RESULT_OK (bem-sucedida),
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            //Captura a imagem e a trnasforma em um bitmap
             val imageBitmap = data?.extras?.get("data") as Bitmap
 
+            //Envia a foto para a Activity de processamento
             val intent = Intent(this, ProcessingActivity::class.java)
             intent.putExtra("imageBitmap", imageBitmap)
             startActivity(intent)
         }
     }
 
+    //Cria uma corrotina para permir as permissões
     private fun requestPermissions(){
         activityResultLauncher.launch(REQUIRED_PERMISSIONS)
     }
