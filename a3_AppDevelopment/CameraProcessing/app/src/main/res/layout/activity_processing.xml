@@ -91,7 +91,6 @@
             android:layout_marginTop="24dp"
             android:backgroundTint="@color/black"
             android:text="@string/brilho"
-            android:textColor="#3E2723"
             app:cornerRadius="14dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button3"

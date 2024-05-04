@@ -38,6 +38,7 @@ class ProcessingActivity : AppCompatActivity() {
         var imageBitmap = intent.getParcelableExtra<Bitmap>("imageBitmap")!!
         var newBitmap_ = displayImage(imageBitmap)
 
+        //Botões da filtro
         val sobelButton = binding.btSobel
         val grayButton = binding.btCinza
         val normalButton = binding.btNormal
@@ -48,9 +49,11 @@ class ProcessingActivity : AppCompatActivity() {
         val returnButton = binding.fabReturn
         val saveButton = binding.fabSave
 
+        //Seekbar
         val sbBrightness = binding.sbBrightness
         val sbContrast = binding.sbConstrast
 
+        //O filtro contém uma seekbar?
         var isSeekBar = false
 
         returnButton.setOnClickListener {
@@ -124,7 +127,6 @@ class ProcessingActivity : AppCompatActivity() {
             val values = contentValues()
             values.put(MediaStore.Images.Media.RELATIVE_PATH, "Pictures/" + folderName)
             values.put(MediaStore.Images.Media.IS_PENDING, true)
-            // RELATIVE_PATH and IS_PENDING are introduced in API 29.
 
             val uri: Uri? =
                 context.contentResolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values)
@@ -136,7 +138,6 @@ class ProcessingActivity : AppCompatActivity() {
         } else {
             val directory =
                 File(Environment.getExternalStorageDirectory().toString() + " " + folderName)
-            // getExternalStorageDirectory is deprecated in API 29
 
             if (!directory.exists()) {
                 directory.mkdirs()
@@ -144,6 +145,7 @@ class ProcessingActivity : AppCompatActivity() {
             val fileName = System.currentTimeMillis().toString() + ".png"
             val file = File(directory, fileName)
             saveImageToStream(bitmap, FileOutputStream(file))
+
             if (file.absolutePath != null) {
                 val values = contentValues()
                 values.put(MediaStore.Images.Media.DATA, file.absolutePath)
@@ -412,3 +414,4 @@ class ProcessingActivity : AppCompatActivity() {
 //https://github.com/theshivamlko/ImageFilterAlogrithm/blob/master/ImageFIlters/app/src/main/java/com/navoki/imagefilters/ImageFilters.java
 //https://dyclassroom.com/image-processing-project/how-to-convert-a-color-image-into-sepia-image
 //https://hackernoon.com/image-processing-algorithms-adjusting-contrast-and-image-brightness-0y4y318a
+//https://docs.rainmeter.net/tips/colormatrix-guide/
