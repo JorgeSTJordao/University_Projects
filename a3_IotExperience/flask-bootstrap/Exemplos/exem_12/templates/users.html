@@ -1,0 +1,12 @@
+{% extends"base.html" %}
+{% block content%}
+    <h2>Usuários</h2>
+
+    <ul>
+        {% for user, senha in users.items() %}
+            <li>{{user}}: {{senha}}</li>
+        {% endfor %}
+    </ul>
+
+    <p>Retornar para o <a href="/home">Menu Principal</a></p>
+{% endblock%}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sensors</title>
+    </head>
+    <body>
+
+        <h2>Sensores</h2>
+        <hr>
+        <h3>Menu</h3>
+        <ul>
+            {% for key, value in sensores.items() %}
+                <li>{{ key }} : {{ value }}</li>
+            {% endfor %}
+        </ul>
+
+        <p>Retornar para o <a href="/">menu principal</a></p>
+
+    </body>
+</html>

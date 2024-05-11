@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>  SmartSprout</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/SS.css') }}">
+    </head>
+    <body class="body">
+        <div class="selector">
+            <img class="logo" src="../static/img/logo.jpg" alt="Logo">
+
+            <a class="ss1" href="/">SmartSprout</a>
+        
+            <a class="tab1" href="/aparelhos">Aparelhos</a>
+        
+            <a class="login1" href="/">Login</a>
+            
+            <a class="cadastro1" href="/">Cadastrar</a>
+
+        </div>  
+
+        <div class="aparelho">
+            {% for nome,id in produtos.items() %}
+            <h1> {{nome}} </h1>
+            {% endfor %}
+        </div>
+
+
+        <div class="card-container">
+
+            <div class="card">
+                <div class="content">
+                    <h1 class="card-title"> 34%</h1>
+                    <a class="card-small"> Humildade </a> 
+                    {% for id, estado in bits.items() %}
+                    <a class="card"> ID: {{id}} Estado: {{estado}} </a> 
+                    {% endfor %} 
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h1 class="card-title"> 50%</h1>
+                    <a class="card-small"> Nivel da agua </a> 
+                    {% for id, estado in bits.items() %}
+                    <a class="card"> ID: {{id}} Estado: {{estado}} </a> 
+                    {% endfor %} 
+                </div>
+            </div>
+                
+        </div>
+        
+
+        
+              
+
+        
+        
+        
+    </body>
+</html>

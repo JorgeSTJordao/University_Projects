@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="d-flex justify-content-center">
+    <div class="card text-center mb-3" style="width: 18rem;">
+        <div class="card-body">
+            {% for id,estado in bits.items() %}
+                <h5 class="card-title">{{estado}} </h5>
+            {% endfor %}
+            <p class="card-text">Humidade</p>
+        </div>
+    </div>
+    <div class="card text-center mb-3" style="width: 18rem;">
+        <div class="card-body">
+            {% for id,estado in bits.items() %}
+                <h5 class="card-title">{{estado}} </h5>
+            {% endfor %}
+            <p class="card-text">Nível da água</p>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+{% endblock %}

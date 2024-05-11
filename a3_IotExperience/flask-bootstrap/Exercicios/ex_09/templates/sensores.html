@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sensores</title>
+    </head>
+    <body>
+        <h2>Sensores</h2>
+        <hr>
+        <ul>
+            {% for key, value in sensores_items.items() %}
+                <li>{{key}}:{{value}}</li>
+                {% if(value < 20) %}
+                    <li>Temperatura baixa</li>
+                {% elif(value >= 20 and value < 25 ) %}
+                    <li>Temperatura Ambiente</li>
+                {% else %}
+                    <li>Temperatura alta</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+        <p>Retornar para o <a href="/">menu Principal</a></p>
+    </body>
+</html>

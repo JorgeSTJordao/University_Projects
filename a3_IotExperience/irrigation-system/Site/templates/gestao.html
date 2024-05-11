@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="d-flex justify-content-center">
+    <div class="d-flex align-items-start flex-column" style="height: 200px;">
+        <div class="mb-auto p-2"> 
+            <form  action = "/add_user" method = "post">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nome do usuário:</label>
+                    <input type="text" class="form-control" name = "user" aria-describedby="emailHelp" required>
+                    <div id="emailHelp" class="form-text">  </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Senha do usuário</label>
+                    <input type="text" class="form-control" name = "password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Criar usuário</button>
+                
+            </form>
+        </div>
+        <div class="p-2">
+            <ul class="list-group">
+                {% for nome,senha in admin.items() %}
+                    <li class="list-group-item active" aria-current="true">Nome: {{nome}} Senha: {{senha}} </li>
+                {% endfor %}
+                {% for nome,senha in usuarios.items() %}
+                    <li class="list-group-item">
+                        <form action="edit_user" method="post">
+                            <input type="hidden" name="user" value="{{ nome }}"> 
+                            <p><input class="novo_nome_button" type="text" name="new_name" placeholder="Novo nome do usuário" required/> </p>
+                            <button type="submit" class="btn btn-outline-success" value="Editar">Editar</button>
+
+                        </form>
+                        <form action="/del_user" method="post">
+                            <input type="hidden" name="user" value="{{nome}}"> 
+                            <button type="submit" class="btn btn-outline-danger" value="Deletar">Deletar</button>
+
+                        </form>
+                        Nome: {{nome}} Senha: {{senha}} </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    
+    <div class="d-flex align-items-end flex-column" style="height: 200px;">
+        <div class="p-2">
+            <form  action = "/add_product" method = "post">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nome do produto:</label>
+                    <input type="text" class="form-control" name = "nome" aria-describedby="emailHelp" required>
+                    <div id="emailHelp" class="form-text">  </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">ID do produto</label>
+                    <input type="text" class="form-control" name = "id" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar produto</button>
+            </form>
+            </div class="p-2">
+            <ul class="list-group">
+                {% for nome,id in produtos.items() %}
+                <li class="list-group-item active" aria-current="true">Nome: {{nome}} Indice: {{id}} </li>
+                {% endfor %}
+            </ul>
+            </div>    
+        </div>
+        
+        
+    
+    </div>  
+</div>
+
+
+{% endblock %}

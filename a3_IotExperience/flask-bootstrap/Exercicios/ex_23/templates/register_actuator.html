@@ -1,0 +1,20 @@
+{% extends"base1.html" %}
+{% block content%}
+<div class="vertical-center">
+  <div class="container">
+    <div class="card">
+        <div class="card-header">
+          <div class="card-body">
+            <form action= "/add_actuator" method= "POST">
+            <p>Nome:</p>
+            <p><input type = "text" name = "nome" placeholder="Nome" required/></p>
+            <p>Estado:</p>
+            <p><input type = "text" name = "estado" placeholder="Estado" required/></p>
+            <p><input type = "submit" value = "Cadastrar" /></p>
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock%}

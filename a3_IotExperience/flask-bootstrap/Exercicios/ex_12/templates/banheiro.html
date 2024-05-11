@@ -1,0 +1,11 @@
+{% extends "Room.html" %}
+{% block content %}
+    <h2>Banheiro</h2>
+    <h3>Dispositivos</h3>
+    <ul>
+        {% for key, value in paginas.items() %}
+        <li><a href={{value}}>{{key}}</a></li>
+        {% endfor %}
+    </ul>
+    <p>Voltar para a <a href="/home">Página Principal</a></p>
+{% endblock%}

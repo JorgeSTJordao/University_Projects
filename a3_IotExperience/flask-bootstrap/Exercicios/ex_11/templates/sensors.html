@@ -1,0 +1,19 @@
+{% extends "base1.html" %}
+{% block content %}
+    <h2>Sensores</h2>
+    <ul>
+        {% for key, value in sensores.items() %}
+            <li>{{key}} : {{value}} ºC</li>
+            {% if(value < 20) %}
+                <li>Temperatura baixa</li>
+            {% elif(value >= 20 and value < 25 ) %}
+                <li>Temperatura Ambiente</li>
+            {% else %}
+                <li>Temperatura alta</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+
+    <p>Retornar para o <a href="/">Menu Principal</a></p>
+{% endblock%}

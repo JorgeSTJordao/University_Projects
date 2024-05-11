@@ -1,5 +1,5 @@
 # app.py
-from flask import Flask, render_template, request,redirect, url_for,jsonify
+from flask import Flask, render_template, request
 #from login import login
 #from sensors import sensor_
 #from actuators import actuator_
@@ -12,13 +12,14 @@ app.config['MQTT_BROKER_URL'] = 'mqtt-dashboard.com'
 app.config['MQTT_BROKER_PORT'] = 1883
 app.config['MQTT_USERNAME'] = ''  # Set this item when you need to verify username and password
 app.config['MQTT_PASSWORD'] = ''  # Set this item when you need to verify username and password
-app.config['MQTT_KEEPALIVE'] = 5000  # Set KeepAlive time in seconds
+app.config['MQTT_KEEPALIVE'] = 1500  # Set KeepAlive time in seconds
 app.config['MQTT_TLS_ENABLED'] = False  # If your broker supports TLS, set it True
 
 #Objeto MQTT
 mqtt_client= Mqtt()
 mqtt_client.init_app(app)
 
+estado_verde = "0"
 bits = {}
 i = 0
 
@@ -39,22 +40,12 @@ def sensores():
 def atuadores():
     return render_template("atuadores.html")
 
-@app.route("/publish_data")
-def publish_data():
-    if request.method == 'POST':
-        if bits[i] == "0":
-            estado = "1"
-        else:
-            estado = "2"
-
-    mqtt_client.publish('led/subscribe', estado)
-
-    return render_template("atuadores.html")
 
 @mqtt_client.on_connect()
 def handle_connect(client, userdata, flags, rc):
     if rc == 0:
         print('Broker Connected successfully')
+        mqtt_client.publish("led/subscribe", "Conectado!")
         mqtt_client.subscribe(topic_subscribe) # subscribe topic
     else:
         print('Bad connection. Code:', rc)
@@ -63,6 +54,25 @@ def handle_connect(client, userdata, flags, rc):
 def handle_disconnect(client, userdata, rc):
     print("Disconnected from broker")
 
+
+#o cliente aqui publica o valor, ou seja, ativa o botão
+@app.route("/publish_data", methods=['GET', 'POST'])
+def publish_data():
+    global estado_verde
+    if request.method == 'POST':
+        if request.form.get("activate_btn") == "0":
+            estado_verde = "1"
+            request.form["activate_btn"] = "1"
+        else:
+            estado_verde = "0"
+            request.form["activate_btn"] = "0"
+
+    print(estado_verde)
+    mqtt_client.publish(topic = 'led/subscribe', payload = bytes(estado_verde, "utf-8"))
+
+    return render_template("atuadores.html")
+
+#recebe o valor e imprime na tabela
 @mqtt_client.on_message()
 def handle_mqtt_message(client, userdata, message):
     global bits

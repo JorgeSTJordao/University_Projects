@@ -1,0 +1,10 @@
+{% extends "base2.html" %}
+{% block content %}
+    <h2>Sensores</h2>
+    <ul>
+        {% for key, value in sensores.items() %}
+            <li>{{key}} : {{value}}</li>
+        {% endfor %}
+    </ul>
+    <p>Retornar para o <a href="/home">menu principal</a></p>
+{% endblock%}

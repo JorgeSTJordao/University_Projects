@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58c308fb-1877-49eb-9893-05f35c4ff4ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/exemplo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/actuators_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/sensors_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/iot/actuators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/iot/devices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/iot/sensors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/create_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/a08_Abstract_Classes/Loja/AppBeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/a08_Abstract_Classes/Loja/Bebida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/a08_Abstract_Classes/Loja/Cerveja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/a08_Abstract_Classes/Loja/CorVinho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/a08_Abstract_Classes/Loja/Loja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/a08_Abstract_Classes/Loja/Vinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a3_AppDevelopment/CameraProcessing/app/src/main/java/com/masterjorge/cameraprocessing/ProcessingActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../a3_AppDevelopment/CameraProcessing/app/src/main/java/com/masterjorge/cameraprocessing/ProcessingActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a3_AppDevelopment/CameraProcessing/app/src/main/res/layout/activity_processing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../a3_AppDevelopment/CameraProcessing/app/src/main/res/layout/activity_processing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-wokwi/.idea/flask-wokwi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-wokwi/.idea/flask-wokwi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-wokwi/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-wokwi/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-wokwi/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-wokwi/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-wokwi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-wokwi/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-wokwi/templates/atuadores.html" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-wokwi/templates/atuadores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-wokwi/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-wokwi/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-wokwi/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-wokwi/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask-wokwi/templates/sensores.html" beforeDir="false" afterPath="$PROJECT_DIR$/../flask-wokwi/templates/sensores.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2fxDzQd38PkZyIKVkzBipsm2qQY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exemplo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58c308fb-1877-49eb-9893-05f35c4ff4ef" name="Default Changelist" comment="" />
+      <created>1714734096866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714734096866</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Banheiro</title>
+    </head>
+    <body>
+        <h2>Menu</h2>
+        <ul>
+            {% for key, value in paginas.items() %}
+            <li><a href={{value}}>{{key}}</a></li>
+            {% endfor %}
+        <ul>
+        <p>Voltar para a <a href="/">Página Principal</a></p>
+    </body>
+</html>

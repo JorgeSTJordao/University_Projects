@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Atuadores</title>
+    </head>
+    <body>
+        <h2>Atuadores</h2>
+        <hr>
+        <ul>
+            {% for key, value in atuadores_list.items() %}
+                <li>{{ key }} : {{ value }}</li>
+            {% endfor %}
+        </ul>
+
+        <p>Retornar para o <a href="/">menu principal</a></p>
+    </body>
+</html>

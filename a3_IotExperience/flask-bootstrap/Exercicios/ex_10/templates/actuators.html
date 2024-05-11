@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actuators</title>
+    </head>
+    <body>
+        <h2>Atuadores</h2>
+        <ul>
+            {% for key, value in atuadores.items() %}
+                <li>{{key}} : {{value}} b</li>
+                {% if(value == 0) %}
+                    <li>Desligado</li>
+                {% else %}
+                    <li>Ligado</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+        <p>Retornar para o <a href="/">Menu Principal</a></p>
+    </body>
+</html>
