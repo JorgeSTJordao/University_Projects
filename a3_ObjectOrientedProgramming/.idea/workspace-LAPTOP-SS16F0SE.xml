@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d65bdf7-59d8-4ed3-b4bc-74ad3ac9527b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/caleb_curruy_oop/OOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/caleb_curruy_oop/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/caleb_curruy_oop/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/free_code_camp_course/a01_hello_world/DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/free_code_camp_course/a01_hello_world/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/free_code_camp_course/a01_hello_world/Variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/free_code_camp_course/a02_strings/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/Site-LAPTOP-6TDCOHBG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/Site.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/misc-LAPTOP-6TDCOHBG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/.idea/workspace-LAPTOP-6TDCOHBG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/app-LAPTOP-6TDCOHBG.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/gestao-LAPTOP-6TDCOHBG.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/gestao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/globals-LAPTOP-6TDCOHBG.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/globals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/oi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/static/css/SS.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/static/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/admin_dash-LAPTOP-6TDCOHBG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/admin_dash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/aparelhos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/aparelhos2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/base-LAPTOP-6TDCOHBG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/cadastro-LAPTOP-6TDCOHBG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/cadastro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/gestao-LAPTOP-6TDCOHBG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/gestao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/login-LAPTOP-6TDCOHBG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/nav-LAPTOP-6TDCOHBG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/nav1-LAPTOP-6TDCOHBG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/nav1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/register_sensor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site/templates/remove_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/.idea/Site2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/Site.code-workspace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/gestao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/static/css/SS.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/static/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/templates/admin_dash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/templates/aparelhos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/templates/cadastro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/templates/gestao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/templates/register_sensor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../a3_IotExperience/irrigation-system/Site2/templates/remove_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RA1_Training/a1_Q1-LAPTOP-6TDCOHBG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwingTraining/a01_hello_swing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwingTraining/a02_dialog.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2eWijtffV2xUIwZCovGreQZDIoC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.IBGE.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jorge/OneDrive/GitHub/University_Projects/a3_ObjectOrientedProgramming&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="caleb_curruy_oop.a02_getters_setters" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-20.0.2-azul-20.0.2-4caba194b151-eb49e076" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d65bdf7-59d8-4ed3-b4bc-74ad3ac9527b" name="Changes" comment="" />
+      <created>1712026872802</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712026872802</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
