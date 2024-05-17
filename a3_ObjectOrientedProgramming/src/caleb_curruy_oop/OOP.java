@@ -18,11 +18,9 @@ public class OOP {
 
         //Criar uma classe chamada usuário
         //Aqui chamamos o construtor primário (instanciação)
-        User u1 = new User("Natalie", "Premium");
-        User u2 = new User("Peter", "Common");
+        User u1 = new User();
+        User u2 = new User();
 
-        //System.out.println(u1.equals(u2));
-        System.out.println(u1.igual(u2));
 
         //Lista genérica
         List<User> users = new ArrayList<User>();

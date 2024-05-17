@@ -1,0 +1,6 @@
+{% extends 'gestor/base.html' %}
+
+
+{% block body %}
+
+{% endblock %}

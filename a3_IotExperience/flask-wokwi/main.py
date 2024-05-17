@@ -86,4 +86,4 @@ def handle_mqtt_message(client, userdata, message):
 
 #Esse código só vai rodar abaixo será executado somente se o nome do arquivo for igual a __main__
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080, debug=False)
+    app.run(host='0.0.0.0', port=8080, debug=True)

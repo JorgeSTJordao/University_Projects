@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="container mt-4">
+    <h2>Aparelhos</h2>
+    <h3>Tempo de ativação</h3>
+
+    <div class="form-outline" data-mdb-input-init>
+      <input type="number" id="firstNumber" class="form-control" />
+      <label class="form-label">Tempo de espera</label>
+    </div>
+    <div class="form-outline" data-mdb-input-init>
+      <input type="number" id="secondNumber" class="form-control" />
+      <label class="form-label">Tempo de ativação</label>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+
+    function functionActive() {
+
+        topic = "irrigacao/receber"
+
+        const firstNumber = document.getElementById('firstNumber').value;
+        const secondNumber = document.getElementById('secondNumber').value;
+
+        const numbers = [firstNumber, secondNumber];
+
+        const numbersString = numbers.join(','); // Join elements with comma and space
+
+        $.ajax({
+        url: "{{ url_for('publish_message') }}",
+        contentType: 'application/json;charset=UTF-8',
+        cache: false,
+        method: 'POST',
+        dataType: 'json',
+        data: JSON.stringify({
+            message: numbersString,
+            topic: topic
+        }),
+        success: function(data) {
+            console.log(data);
+        }
+        });
+    }
+
+</script>
+
+<div class="container mt-4">
+    <button type="button" class="btn btn-primary  mt-4" id="control" onclick="functionActive()">Aplicar</button>
+</div>
+{% endblock %}

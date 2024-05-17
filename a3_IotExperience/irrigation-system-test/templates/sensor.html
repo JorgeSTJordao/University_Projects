@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="container mt-4">
+  <h2>Estado da planta</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Situação</th>
+        <th scope="col">Umidade (%)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for id, valor in bits.items() %}
+        <tr>
+          <th scope="row">{{id}}</th>
+          <td>{{valor[0]}}</td>
+          <td>{{valor[1]}}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+
+{% endblock %}
