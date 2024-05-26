@@ -5,14 +5,14 @@ from models.iot.devices import Device
 class Actuator(db.Model):
 
     #atributos
-    __tablename__  = 'actuators'
-    id = db.Column('id', db.Integer, primary_key=True)
+    __tablename__ = 'actuators'
+    id = db.Column('id', db.Integer, primary_key = True)
     devices_id = db.Column(db.Integer, db.ForeignKey(Device.id))
     unit = db.Column(db.String(50))
     topic = db.Column(db.String(50))
 
     #insere um atuador
-    def save_actuator(self, name, brand, model, topic, unit, is_active):
+    def save_actuator(name, brand, model, topic, unit, is_active):
         device = Device(name = name, brand=brand, model=model,  is_active = is_active)
         actuator = Actuator(devices_id=device.id, unit=unit, topic=topic)
 
@@ -37,14 +37,14 @@ class Actuator(db.Model):
     #Captura um elemento a partir do ID
     def get_single_actuator(id):
         actuator = Actuator.query.filter(Actuator.devices_id == id).first()
-
+        print(id)
         if actuator is not None:
 
             actuator = Actuator.query.filter(Actuator.devices_id == id).\
                 join(Device).add_columns(Device.id, Device.name, Device.brand,
                                          Device.model, Device.is_active, Actuator.topic, Actuator.unit).first()
 
-        return actuator
+        return [actuator]
 
 
     #Atualiza o atuador no banco de dados
@@ -73,4 +73,4 @@ class Actuator(db.Model):
         db.session.delete(device)
         db.session.commit()
 
-        return Actuator.get_sensors()
+        return Actuator.get_actuators()

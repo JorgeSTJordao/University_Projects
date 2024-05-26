@@ -1,20 +1,45 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Flaskwi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-{% block body %}
+</head>
+<body>
 
-<div class="container mt-4">
-    <h2>Aparelhos</h2>
-    <h3>Tempo de ativação</h3>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Flaskwi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/sensor">Sensores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/atuador">Atuadores</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <div class="form-outline" data-mdb-input-init>
-      <input type="number" id="firstNumber" class="form-control" />
-      <label class="form-label">Tempo de espera</label>
+    <div class="container mt-4">
+        <h2>Aparelhos</h2>
+        <h3>Tempo de ativação</h3>
+
+        <div class="form-outline" data-mdb-input-init>
+          <input type="number" id="firstNumber" class="form-control" />
+          <label class="form-label">Tempo de espera</label>
+        </div>
+        <div class="form-outline" data-mdb-input-init>
+          <input type="number" id="secondNumber" class="form-control" />
+          <label class="form-label">Tempo de ativação</label>
+        </div>
     </div>
-    <div class="form-outline" data-mdb-input-init>
-      <input type="number" id="secondNumber" class="form-control" />
-      <label class="form-label">Tempo de ativação</label>
-    </div>
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -52,4 +77,5 @@
 <div class="container mt-4">
     <button type="button" class="btn btn-primary  mt-4" id="control" onclick="functionActive()">Aplicar</button>
 </div>
-{% endblock %}
+</body>
+</html>

@@ -6,10 +6,10 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-body">
-                    <form action="http://localhost:8080/get_write" method="post">
+                    <form action="/get_write" method="post">
                         <select name="id" class="Input">
                             {% for actuator in actuators %}
-                                <option>{{ actuator.id }}</option>
+                            <option type = "text" name = "id" value= "{{actuator.id}}">{{ actuator.name }}</option>
                             {% endfor %}
                         </select>
                         <p></p>

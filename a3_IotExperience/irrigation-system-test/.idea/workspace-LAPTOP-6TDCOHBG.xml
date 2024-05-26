@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3657504-d685-4680-8191-900c35aa25b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../exemplo1/controllers/reads_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exemplo1/models/iot/read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exemplo1/models/iot/write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exemplo1/views/update_actuator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/.idea/irrigation-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/templates/gestor/apoio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/templates/gestor/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/templates/gestor/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/templates/gestor/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/templates/landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../irrigation-system/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo1/controllers/actuators_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/controllers/actuators_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo1/controllers/app_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/controllers/app_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo1/controllers/sensors_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/controllers/sensors_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo1/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo1/models/iot/actuators.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/models/iot/actuators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo1/models/iot/sensors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/models/iot/sensors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo1/views/actuators.html" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/views/actuators.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo1/views/history_read.html" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/views/history_read.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo1/views/history_write.html" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo1/views/history_write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/caleb_curruy_oop/OOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/caleb_curruy_oop/OOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/caleb_curruy_oop/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/caleb_curruy_oop/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/caleb_curruy_oop/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../a3_ObjectOrientedProgramming/src/caleb_curruy_oop/User.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="led-ultrassonic-mqtt" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2gTfKOQpN6YfzmyFF7ILRGpR2R1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jorge\OneDrive\GitHub\University_Projects\a3_IotExperience\irrigation-system-test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jorge\OneDrive\GitHub\University_Projects\a3_IotExperience\irrigation-system-test" />
+      <recent name="C:\Users\jorge\OneDrive\GitHub\University_Projects\a3_IotExperience\irrigation-system-test\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="irrigation-system-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3657504-d685-4680-8191-900c35aa25b7" name="Default Changelist" comment="" />
+      <created>1715726423749</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715726423749</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="RELOAD_CONTEXT" value="false" />
+  </component>
+</project>

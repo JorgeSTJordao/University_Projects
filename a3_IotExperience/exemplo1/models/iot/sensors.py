@@ -45,7 +45,7 @@ class Sensor(db.Model):
                 join(Device).add_columns(Device.id, Device.name, Device.brand,
                                          Device.model, Device.is_active, Sensor.topic, Sensor.unit).first()
 
-        return sensor
+        return [sensor]
 
     #atualiza um atributo de um dos sensores já cadastrados
     def update_sensor(id, name, brand, model, topic, unit, is_active):

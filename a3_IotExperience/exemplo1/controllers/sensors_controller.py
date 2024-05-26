@@ -9,16 +9,18 @@ def sensors():
     sensors = Sensor.get_sensors()
     return render_template("sensors.html", sensors=sensors)
 
+
 #formulário de registro
 @sensor_.route('/register_sensor')
 def register_sensor():
     return render_template("register_sensor.html")
 
+
 #adiciona um sensor novo após o formulário
 @sensor_.route('/add_sensor', methods=['POST'])
 def add_sensor():
     name = request.form.get("name")
-    brand = request.form.get("brand ")
+    brand = request.form.get("brand")
     model = request.form.get("model")
     topic = request.form.get("topic")
     unit = request.form.get("unit")
@@ -29,12 +31,14 @@ def add_sensor():
     sensors = Sensor.get_sensors()
     return render_template("sensors.html", sensors=sensors)
 
+
 #edita alguma característica do sensor
 @sensor_.route('/edit_sensor')
-def edit_route():
+def edit_sensor():
     id = request.args.get('id', None)
     sensor = Sensor.get_single_sensor(id)
     return render_template("update_sensor.html", sensor=sensor)
+
 
 #atualiza o sensor
 @sensor_.route('/update_sensor', methods=['POST'])
@@ -51,9 +55,11 @@ def update_sensor():
 
     return render_template("sensors.html", sensors=sensors)
 
+
 #deleta sensor
 @sensor_.route('/del_sensor', methods=['GET'])
 def del_sensor():
-    id = request.args('id', None)
+    id = request.args.get('id', None)
     sensors = Sensor.delete_sensor(id)
     return render_template("sensors.html", sensors=sensors)
+

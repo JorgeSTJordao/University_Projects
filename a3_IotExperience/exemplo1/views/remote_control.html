@@ -1,0 +1,57 @@
+{% extends"base.html" %}
+{% block content%}
+<div class="container mt-4">
+    <h2>Aparelhos</h2>
+    <h3>Tempo de ativação</h3>
+    <form action="/get_write" method="post">
+        <select name="id" class="Input">
+            {% for actuator in actuators %}
+                <option type = "text" name = "id" value= "{{actuator.id}}">{{ actuator.name }}</option>
+            {% endfor %}
+        </select>
+    </form>
+    <div class="form-outline" data-mdb-input-init>
+      <input type="number" id="firstNumber" class="form-control" />
+      <label class="form-label">Tempo de pisca</label>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+
+    function functionActive() {
+
+        topic = "led/state";
+
+        const firstNumber = document.getElementById('firstNumber').value;
+        //const secondNumber = document.getElementById('secondNumber').value;
+
+        //const numbers = [firstNumber, secondNumber];
+
+        //const numbersString = numbers.join(','); // Join elements with comma and space
+
+        //window.alert(numbersString);
+        window.alert(firstNumber);
+
+        $.ajax({
+            url: "/publish_message",
+            contentType: 'application/json;charset=UTF-8',
+            cache: false,
+            method: 'POST',
+            dataType: 'json',
+            data: JSON.stringify({
+                message: firstNumber,
+                topic: topic
+            }),
+            success: function(data) {
+                console.log(data);
+            }
+        });
+    }
+
+</script>
+
+<div class="container mt-4">
+    <button type="button" class="btn btn-primary  mt-4" id="control" onclick="functionActive();">Aplicar</button>
+</div>
+{% endblock%}

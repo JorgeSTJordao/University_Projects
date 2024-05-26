@@ -6,10 +6,10 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-body">
-                    <form action="http://localhost:8080/get_read" method="post">
+                    <form action="/get_read" method="post">
                         <select name="id" class="Input">
                             {% for sensor in sensors %}
-                                <option>{{ sensor.id }}</option>
+                                <option type = "text" name = "id" value= "{{sensor.id}}">{{ sensor.name }}</option>
                             {% endfor %}
                         </select>
                         <p></p>

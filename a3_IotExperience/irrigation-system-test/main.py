@@ -1,14 +1,14 @@
-from flask import Flask, render_template, request,redirect, url_for,jsonify
+from flask import Flask, render_template, request, redirect, url_for,jsonify
 from flask_mqtt import Mqtt
 import json
 
-app= Flask(__name__)
+app = Flask(__name__)
 
 app.config['MQTT_BROKER_URL'] = 'mqtt-dashboard.com'
 app.config['MQTT_BROKER_PORT'] = 1883
 app.config['MQTT_USERNAME'] = ''  # Set this item when you need to verify username and password
 app.config['MQTT_PASSWORD'] = ''  # Set this item when you need to verify username and password
-app.config['MQTT_KEEPALIVE'] = 3  # Set KeepAlive time in seconds
+app.config['MQTT_KEEPALIVE'] = 1500  # Set KeepAlive time in seconds
 app.config['MQTT_TLS_ENABLED'] = False  # If your broker supports TLS, set it True
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
@@ -70,4 +70,4 @@ def handle_disconnect(client, userdata, rc):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=False, host='0.0.0.0')
