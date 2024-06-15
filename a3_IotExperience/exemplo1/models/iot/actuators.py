@@ -37,9 +37,7 @@ class Actuator(db.Model):
     #Captura um elemento a partir do ID
     def get_single_actuator(id):
         actuator = Actuator.query.filter(Actuator.devices_id == id).first()
-        print(id)
         if actuator is not None:
-
             actuator = Actuator.query.filter(Actuator.devices_id == id).\
                 join(Device).add_columns(Device.id, Device.name, Device.brand,
                                          Device.model, Device.is_active, Actuator.topic, Actuator.unit).first()

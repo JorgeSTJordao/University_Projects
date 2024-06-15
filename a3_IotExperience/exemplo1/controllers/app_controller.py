@@ -8,8 +8,6 @@ from controllers.sensors_controller import sensor_
 from controllers.actuators_controller import actuator_
 from controllers.reads_controller import read
 from controllers.writes_controller import write
-from models.iot.sensors import Sensor
-from models.iot.actuators import Actuator
 from models.iot.read import Read
 from models.iot.write import Write
 from flask_mqtt import Mqtt

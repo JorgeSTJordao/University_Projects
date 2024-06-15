@@ -17,7 +17,7 @@ def register_sensor():
 
 
 #adiciona um sensor novo após o formulário
-@sensor_.route('/add_sensor', methods=['POST'])
+@sensor_.route('<>/add_sensor', methods=['POST'])
 def add_sensor():
     name = request.form.get("name")
     brand = request.form.get("brand")
@@ -57,7 +57,7 @@ def update_sensor():
 
 
 #deleta sensor
-@sensor_.route('/del_sensor', methods=['GET'])
+@sensor_.route('/del_sensor/', methods=['GET'])
 def del_sensor():
     id = request.args.get('id', None)
     sensors = Sensor.delete_sensor(id)
