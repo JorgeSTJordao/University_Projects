@@ -14,4 +14,4 @@ Welcome to my university repository! If you in interested about what **my most r
 - Scientific Modeling: I'm able to implement the concepts of limits, derivates and integral in Python
   
 ## Electives
-- Mobile Development: I'm gonna make some mobile application using Android
+- App Development: I'm gonna make some mobile application using Android
