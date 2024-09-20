@@ -1,4 +1,4 @@
-# 📚 University Projects
+# 📚 University
 Welcome to my university repository! If you in interested about what **my most recent projects** are while I'm in college, this is the right place. Jump right in!
 
 ## ⚡ Core Subjects
